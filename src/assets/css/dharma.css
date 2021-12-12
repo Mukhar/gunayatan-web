@@ -1,0 +1,13 @@
+#dharma {
+  background-image: url("./../images/bg_section2.jpg");
+  min-height: 500px;
+  display: flex;
+  align-content: center;
+}
+.dharma_carousel {
+  min-height: 300px;
+}
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+}

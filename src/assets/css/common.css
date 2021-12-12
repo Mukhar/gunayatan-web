@@ -1,0 +1,9 @@
+@font-face {
+  font-family: quicksand;
+  src: url(./../fonts/quicksand-bold-webfont.woff2);
+  src: url(./../fonts/quicksand-light-webfont.woff2);
+  src: url(./../fonts/quicksand-regular-webfont.woff2);
+}
+body {
+  background-color: #f6f7fb;
+}

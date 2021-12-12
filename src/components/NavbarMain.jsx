@@ -7,7 +7,8 @@ import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 import "./../assets/css/navbar.css";
-import logo from "./../assets/gunayatan_logo_text.png";
+import logo from "./../assets/images/gunayatan_logo_2_thin.png";
+
 export default function NavbarMain() {
     return (
         <Navbar bg="light" expand="lg" sticky="top">

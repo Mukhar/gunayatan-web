@@ -1,16 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "./assets/css/common.css"
 import NavbarMain from './components/NavbarMain';
 import CarouselBody from './components/Carousel';
 import CardWhite from './components/Card';
+import Dharma from './components/Dharma';
+import FullscreenTextImage from './components/FullscreenTextImage';
 
 function App() {
   return (<>
     <NavbarMain />
     <CarouselBody />
     <CardWhite />
+    <Dharma />
+    <FullscreenTextImage />
   </>
     // <div className="App">
     //   <header className="App-header">

@@ -1,4 +1,5 @@
 .cardwhite {
+  z-index: 20;
   height: 200px !important;
   width: 80%;
   position: relative;
@@ -7,4 +8,20 @@
   display: block;
   margin: auto;
   background-color: white;
+  margin-top: -6em;
+}
+.card-icon {
+  display: block;
+  margin: auto;
+  align-items: center;
+  /* top: auto;
+  left: auto; */
+}
+.cardwhite img {
+  max-width: 100px;
+}
+
+.imagegroup:hover {
+  color: orangered;
+  transition-duration: 0.4s;
 }
