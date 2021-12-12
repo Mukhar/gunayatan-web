@@ -6,15 +6,17 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
+import "./../assets/css/navbar.css";
+import logo from "./../assets/gunayatan_logo_text.png";
 export default function NavbarMain() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" sticky="top">
             <Container fluid>
-                <Navbar.Brand href="#"><img src="http://great-lotus.ancorathemes.com/wp-content/uploads/2018/01/logo-retina.png" /></Navbar.Brand>
+                <Navbar.Brand href="#"><img className='logo' src={logo} alt="http://great-lotus.ancorathemes.com/wp-content/uploads/2018/01/logo-retina.png" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
+                <Navbar.Collapse id="navbarScroll" className="justify-content-end">
                     <Nav
-                        className="me-auto my-2 my-lg-0"
+                        className="me-2 my-2 my-lg-0"
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >

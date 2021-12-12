@@ -3,10 +3,15 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavbarMain from './components/NavbarMain';
+import CarouselBody from './components/Carousel';
+import CardWhite from './components/Card';
 
 function App() {
-  return (
-    <NavbarMain/>
+  return (<>
+    <NavbarMain />
+    <CarouselBody />
+    <CardWhite />
+  </>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />

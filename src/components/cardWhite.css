@@ -1,0 +1,10 @@
+.cardwhite {
+  height: 200px !important;
+  width: 80%;
+  position: relative;
+  border-radius: 5px !important;
+  box-shadow: 0 0 4.222rem rgb(82 190 229 / 24%);
+  display: block;
+  margin: auto;
+  background-color: white;
+}
