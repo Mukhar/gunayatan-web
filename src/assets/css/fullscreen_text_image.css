@@ -1,6 +1,10 @@
 .bg-red {
-  background-image: url("./../images/bg-7.webp");
+  background-image: url("./../images/bg-7.png");
   /* height: 100vh; */
+  color: white;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.fti-leftblock {
+  padding-top: 10px;
 }

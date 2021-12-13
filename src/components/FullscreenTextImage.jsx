@@ -9,7 +9,7 @@ export default function FullscreenTextImage() {
         <Container fluid>
             <Row >
                 <Col className='px-0 bg-red' md={6}>
-                    <div className='d-flex justify-content-center py-3'>
+                    <div className='d-flex justify-content-center py-3 fti-leftblock'>
                         <h3>Welcome</h3>
                     </div>
                 </Col>

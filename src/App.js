@@ -1,11 +1,12 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/common.css"
 import NavbarMain from './components/NavbarMain';
 import CarouselBody from './components/Carousel';
 import CardWhite from './components/Card';
 import Dharma from './components/Dharma';
 import FullscreenTextImage from './components/FullscreenTextImage';
+import SectionComp from './components/SectionComp';
 
 function App() {
   return (<>
@@ -14,6 +15,8 @@ function App() {
     <CardWhite />
     <Dharma />
     <FullscreenTextImage />
+    <SectionComp heading="Heading1" />
+    <SectionComp heading="Heading2" />
   </>
     // <div className="App">
     //   <header className="App-header">

@@ -1,9 +1,9 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
-import buddha from './../assets/images/buddha.webp'
-import elephant from './../assets/images/elephant.webp'
-import om from './../assets/images/om.webp'
+import buddha from './../assets/images/buddha.png'
+import elephant from './../assets/images/elephant.png'
+import om from './../assets/images/om.png'
 import "./cardWhite.css"
 
 export default function CardWhite() {
