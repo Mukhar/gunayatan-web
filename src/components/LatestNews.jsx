@@ -8,7 +8,7 @@ import img2 from "./../assets/images/image-26-copyright-600x463.jpg"
 import img1 from "./../assets/images/image-27-copyright-600x463.jpg"
 
 
-export default function SectionComp(props) {
+export default function LatestNews(props) {
     // eslint-disable-next-line
     const [cardarray, setcardarray] = useState([{ img: img1 }, { img: img2 }, { img: img3 }]);
     return (

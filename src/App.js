@@ -7,6 +7,8 @@ import CardWhite from './components/Card';
 import Dharma from './components/Dharma';
 import FullscreenTextImage from './components/FullscreenTextImage';
 import SectionComp from './components/SectionComp';
+import SubscribeNews from './components/SubscribeNews';
+import Slick from './components/Slick';
 
 function App() {
   return (<>
@@ -16,7 +18,9 @@ function App() {
     <Dharma />
     <FullscreenTextImage />
     <SectionComp heading="Heading1" />
+    <Slick />
     <SectionComp heading="Heading2" />
+    <SubscribeNews />
   </>
     // <div className="App">
     //   <header className="App-header">

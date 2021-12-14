@@ -1,6 +1,6 @@
 import React from 'react'
 import "./../assets/css/fullscreen_text_image.css"
-import fsimage from "./../assets/images/image-44-copyright.jpg"
+import fsimage from "./../assets/images/img_kalash.jpg"
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'

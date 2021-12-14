@@ -1,6 +1,6 @@
 .cardwhite {
   z-index: 20;
-  height: 200px !important;
+  /* height: 200px !important; */
   width: 80%;
   position: relative;
   border-radius: 5px !important;
@@ -8,7 +8,7 @@
   display: block;
   margin: auto;
   background-color: white;
-  margin-top: -6em;
+  margin-top: -5em;
 }
 .card-icon {
   display: block;
