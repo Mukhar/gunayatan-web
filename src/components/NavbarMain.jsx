@@ -7,8 +7,8 @@ import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 import "./../assets/css/navbar.css";
-import logo from "./../assets/images/gunayatan_logo_2_thin.png";
-
+// import logo from "./../assets/images/gunayatan_logo_2_thin.png";
+import logo from "./../assets/icons/11.png"
 export default function NavbarMain() {
     return (
         <Navbar bg="light" expand="lg" sticky="top">
@@ -22,15 +22,20 @@ export default function NavbarMain() {
                         navbarScroll
                     >
                         <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">Link</Nav.Link>
-                        <NavDropdown title="Link" id="navbarScrollingDropdown">
-                            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+                        <Nav.Link href="#action2">14 Gunsthan</Nav.Link>
+                        <NavDropdown title="About Us" id="navbarScrollingDropdown">
+                            <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
+                            <NavDropdown.Item href="#action3">Managing Comittee</NavDropdown.Item>
+                            <NavDropdown.Item href="#action3">Core Members</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action5">
                                 Something else here
                             </NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link href="#action2">Schemes</Nav.Link>
+                        <Nav.Link href="#action2">Progress</Nav.Link>
+                        <Nav.Link href="#action2">Donation</Nav.Link>
+
                         <Nav.Link href="#" disabled>
                             Link
                         </Nav.Link>

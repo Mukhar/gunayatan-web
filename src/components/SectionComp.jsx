@@ -6,6 +6,7 @@ import "../assets/css/SectionComp.css"
 import img3 from "./../assets/images/image-25-copyright-600x463.jpg"
 import img2 from "./../assets/images/image-26-copyright-600x463.jpg"
 import img1 from "./../assets/images/image-27-copyright-600x463.jpg"
+import { motion } from "framer-motion"
 
 
 export default function SectionComp(props) {
@@ -20,21 +21,24 @@ export default function SectionComp(props) {
             <div className='d-flex justify-content-center card-container'>
 
                 {cardarray.map((obj, i) =>
-                    <Card style={{
-                        width: '18rem',
-                        borderRadius: "10px 10px 5px 5px",
-                        marginLeft: "15px"
-                    }} className="text-center">
-                        <Card.Img variant="top" src={obj.img} />
-                        <Card.Body text>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary ">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
+                    <motion.div whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}>
+                        <Card style={{
+                            width: '18rem',
+                            borderRadius: "10px 10px 5px 5px",
+                            marginLeft: "15px"
+                        }} className="text-center">
+                            <Card.Img variant="top" src={obj.img} />
+                            <Card.Body text>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <Button variant="primary ">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </motion.div>
                 )}
 
             </div>

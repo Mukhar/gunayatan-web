@@ -9,7 +9,6 @@ import FullscreenTextImage from './components/FullscreenTextImage';
 import SectionComp from './components/SectionComp';
 import SubscribeNews from './components/SubscribeNews';
 import Slick from './components/Slick';
-
 function App() {
   return (<>
     <NavbarMain />
@@ -17,7 +16,9 @@ function App() {
     <CardWhite />
     <Dharma />
     <FullscreenTextImage />
+
     <SectionComp heading="Heading1" />
+
     <Slick />
     <SectionComp heading="Heading2" />
     <SubscribeNews />
