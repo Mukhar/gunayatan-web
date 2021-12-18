@@ -9,12 +9,19 @@ import FullscreenTextImage from './components/FullscreenTextImage';
 import SectionComp from './components/SectionComp';
 import SubscribeNews from './components/SubscribeNews';
 import Slick from './components/Slick';
+import divider from './assets/icons/divider.png'
 function App() {
   return (<>
     <NavbarMain />
     <CarouselBody />
     <CardWhite />
     <Dharma />
+    <img src={divider} style={{
+      width: "20%",
+      textAlign: 'center',
+      margin: "10px auto 10px auto",
+      display: 'block'
+    }} />
     <FullscreenTextImage />
 
     <SectionComp heading="Heading1" />

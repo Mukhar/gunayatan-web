@@ -13,7 +13,14 @@ import slide5 from "./../assets/images/carousel/5.jpg";
 // import slide3 from './../assets/images/03_home_slide-1.jpg';
 // import slide4 from "./../assets/images/04.jpg";
 export default function CarouselBody() {
-    const [img1, setimg1] = useState([slide1, slide2, slide3, slide4, slide5]);
+    // eslint-disable-next-line
+    const [img1, setimg1] = useState([
+        { img: slide1, label: "Gunayatan Label 1", caption: "Some Magnificent view of Gunayatan" },
+        { img: slide2, label: "Gunayatan Label 2", caption: "Some Magnificent view of Gunayatan" },
+        { img: slide3, label: "Gunayatan Label 3", caption: "Some Magnificent view of Gunayatan" },
+        { img: slide4, label: "Gunayatan Label 4", caption: "Some Magnificent view of Gunayatan" },
+        { img: slide5, label: "Gunayatan Label 5", caption: "Some Magnificent view of Gunayatan" },
+    ]);
     return (
         <div>
             <Carousel fade>
@@ -21,13 +28,12 @@ export default function CarouselBody() {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100"
-                            src={element}
-                            alt="First slide"
+                            src={element.img}
+                            alt={element.label}
                         />
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
+                            <h3>{element.label}</h3>
+                            <p>{element.caption}</p>                        </Carousel.Caption>
                     </Carousel.Item>
                 ))
                 }

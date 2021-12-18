@@ -5,24 +5,41 @@
   src: url(./../fonts/quicksand-regular-webfont.woff2);
 }
 .logo {
-  max-width: 280px;
+  max-width: 300px;
   max-height: 100px;
 }
 .navbar {
   z-index: 2000;
   position: sticky;
   top: 0;
-  box-shadow: 5px 5px 8px rgba(46, 46, 46, 0.634);
-  font-display: swap;
+  color: rgb(68, 43, 33) !important;
+  box-shadow: 5px 5px 8px rgba(250, 252, 255, 0.634);
+  /* font-display: swap; */
   font-family: quicksand, sans-serif;
   /* font-size: 20px; */
   font-weight: bold;
   padding: 0px;
+  background-color: wheat !important;
+  /* background: rgb(150, 111, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(150, 111, 255, 1) 0%,
+    rgba(205, 255, 241, 1) 100%
+  ); */
 }
 .nav-link {
   padding: 5px !important;
   margin-left: 5px;
+  text-align: center;
 }
 .nav-link:hover {
   color: orangered !important;
+}
+.OrangeBar {
+  background: orangered;
+  height: 3px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  z-index: 10000;
 }

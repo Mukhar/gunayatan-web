@@ -35,13 +35,13 @@
 .carousel-caption {
   position: absolute !important;
   left: 10%;
-  top: 30%;
+  bottom: 30%;
   text-align: left;
   bottom: 1.2rem;
   font-size: 46px;
   max-width: 60%;
   height: auto !important;
-  background-color: rgba(0, 0, 0, 0.103);
+  /* background-color: rgba(0, 0, 0, 0.103); */
 }
 
 .carousel-caption .orange {
@@ -49,4 +49,7 @@
 }
 .carousel-caption .blue {
   color: lightseagreen;
+}
+.carousel-indicators {
+  display: none;
 }

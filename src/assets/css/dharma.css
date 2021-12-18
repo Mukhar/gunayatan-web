@@ -1,8 +1,11 @@
 #dharma {
-  background-image: url("./../images/bg_section2.jpg");
+  background: url("./../images/shikharjee-bg.jpg");
   min-height: 500px;
   display: flex;
   align-content: center;
+  background-size: cover;
+  background-position: bottom;
+  /* opacity: 0.4; */
 }
 .dharma_carousel {
   min-height: 300px;

@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/esm/Row';
 import "./../assets/css/dharma.css";
 export default function Dharma() {
     return (
-        <div id='dharma' className='container '>
+        <div id='dharma' className='container-fluid '>
             <Container className='mt-3'>
                 <Row className='p-2'>
                     <Col>

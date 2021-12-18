@@ -6,6 +6,8 @@ import elephant from './../assets/images/elephant.png'
 import om from './../assets/images/om.png'
 import line from './../assets/icons/line.png'
 import "./cardWhite.css"
+import vidyasagar from './../assets/images/Vidyasagar1.jpg'
+import pramansagar from './../assets/images/Muni_Pramansagar_ji.jpg'
 import { motion } from "framer-motion"
 
 export default function CardWhite() {
@@ -19,9 +21,9 @@ export default function CardWhite() {
                         <div className='d-flex justify-content-center'>
                             <div className='imagegroup'>
                                 <motion.div whileHover={{ scale: 1.1 }}
-                                    whileTap={{ scale: 0.9 }}><img src={buddha} alt="IMG" />
+                                    whileTap={{ scale: 0.9 }}><img src={vidyasagar} alt="IMG" />
                                 </motion.div    >
-                                <div className='subtitles'>This is the Text</div>
+                                <div className='subtitles'>Acharya Vidyasagarji</div>
                             </div>
                         </div>
                     </Card.Body>
@@ -33,10 +35,10 @@ export default function CardWhite() {
                         <div className='d-flex justify-content-center'>
                             <div className='imagegroup'>
                                 <motion.div whileHover={{ scale: 1.1 }}
-                                    whileTap={{ scale: 0.9 }}>
-                                    <img src={elephant} alt="IMG" />
+                                    whileTap={{ scale: 0.9 }} style={{ textAlign: "center" }}>
+                                    <img src={pramansagar} alt="IMG" />
                                 </motion.div>
-                                <div className='subtitles'>This is the Text</div>
+                                <div className='subtitles'>Muni Pramansagar Ji</div>
                             </div>
                         </div>
                     </Card.Body>

@@ -1,7 +1,8 @@
 .bg-red {
-  background-image: url("./../images/bg-7.png");
+  /* background-image: url("./../images/bg-7.png"); */
+  background-image: url("./../images/halfCutMountain.jpg");
   /* height: 100vh; */
-  color: white;
+  color: #ff4500;
   background-repeat: no-repeat;
   background-size: cover;
 }

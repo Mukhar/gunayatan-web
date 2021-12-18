@@ -9,10 +9,15 @@ import Button from 'react-bootstrap/Button'
 import "./../assets/css/navbar.css";
 // import logo from "./../assets/images/gunayatan_logo_2_thin.png";
 import logo from "./../assets/icons/11.png"
+
 export default function NavbarMain() {
-    return (
+    return (<>
+        <div className="OrangeBar"></div>
+
         <Navbar bg="light" expand="lg" sticky="top">
+
             <Container fluid>
+
                 <Navbar.Brand href="#"><img className='logo' src={logo} alt="http://great-lotus.ancorathemes.com/wp-content/uploads/2018/01/logo-retina.png" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className="justify-content-end">
@@ -22,7 +27,7 @@ export default function NavbarMain() {
                         navbarScroll
                     >
                         <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">14 Gunsthan</Nav.Link>
+                        <Nav.Link href="#action2">14 Gunsthan</Nav.Link>
                         <NavDropdown title="About Us" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
                             <NavDropdown.Item href="#action3">Managing Comittee</NavDropdown.Item>
@@ -36,9 +41,9 @@ export default function NavbarMain() {
                         <Nav.Link href="#action2">Progress</Nav.Link>
                         <Nav.Link href="#action2">Donation</Nav.Link>
 
-                        <Nav.Link href="#" disabled>
+                        {/* <Nav.Link href="#" disabled>
                             Link
-                        </Nav.Link>
+                        </Nav.Link> */}
                     </Nav>
                     <Form className="d-flex">
                         <FormControl
@@ -52,5 +57,7 @@ export default function NavbarMain() {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+    </>
+
     )
 }

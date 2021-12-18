@@ -7,11 +7,28 @@ import img3 from "./../assets/images/image-25-copyright-600x463.jpg"
 import img2 from "./../assets/images/image-26-copyright-600x463.jpg"
 import img1 from "./../assets/images/image-27-copyright-600x463.jpg"
 import { motion } from "framer-motion"
-
+import mainMandir from "./../assets/images/Gunayatan_Main_Mandir.png";
 
 export default function SectionComp(props) {
     // eslint-disable-next-line
-    const [cardarray, setcardarray] = useState([{ img: img1 }, { img: img2 }, { img: img3 }]);
+    const [cardarray, setcardarray] = useState([
+        {
+            img: img1,
+            cardTitle: "SahasraKoot",
+            class: "",
+            cardText: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        }, {
+            img: mainMandir,
+            cardTitle: "Main Mandir",
+            class: "radient-gradient-grey",
+            cardText: "Some quick example text to build on the card title and make up the bulk of the card's content."
+        }, {
+            img: img3,
+            cardTitle: "Chaubisi Jin Mandir",
+            class: "",
+            cardText: "Some quick example text to build on the card title and make up the bulk of the card's content."
+        },
+    ]);
     return (
         <Container>
             <div className='mt-5'></div>
@@ -28,12 +45,11 @@ export default function SectionComp(props) {
                             borderRadius: "10px 10px 5px 5px",
                             marginLeft: "15px"
                         }} className="text-center">
-                            <Card.Img variant="top" src={obj.img} />
+                            <Card.Img variant="top" src={obj.img} className={obj.class} />
                             <Card.Body text>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>{obj.cardTitle}</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    {obj.cardText}
                                 </Card.Text>
                                 <Button variant="primary ">Go somewhere</Button>
                             </Card.Body>
