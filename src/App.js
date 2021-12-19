@@ -10,6 +10,7 @@ import SectionComp from './components/SectionComp';
 import SubscribeNews from './components/SubscribeNews';
 import Slick from './components/Slick';
 import divider from './assets/icons/divider.png'
+import Footer from './components/Footer';
 function App() {
   return (<>
     <NavbarMain />
@@ -29,6 +30,7 @@ function App() {
     <Slick />
     <SectionComp heading="Heading2" />
     <SubscribeNews />
+    <Footer />
   </>
     // <div className="App">
     //   <header className="App-header">

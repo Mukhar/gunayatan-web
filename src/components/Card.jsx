@@ -7,7 +7,9 @@ import om from './../assets/images/om.png'
 import line from './../assets/icons/line.png'
 import "./cardWhite.css"
 import vidyasagar from './../assets/images/Vidyasagar1.jpg'
-import pramansagar from './../assets/images/Muni_Pramansagar_ji.jpg'
+// import pramansagar from './../assets/images/Muni_Pramansagar_ji.jpg'
+import pramansagar from './../assets/images/pramansagar-2.jpg'
+
 import { motion } from "framer-motion"
 
 export default function CardWhite() {
@@ -21,7 +23,8 @@ export default function CardWhite() {
                         <div className='d-flex justify-content-center'>
                             <div className='imagegroup'>
                                 <motion.div whileHover={{ scale: 1.1 }}
-                                    whileTap={{ scale: 0.9 }}><img src={vidyasagar} alt="IMG" />
+                                    whileTap={{ scale: 0.9 }} style={{ textAlign: "center" }}>
+                                    <img src={vidyasagar} alt="IMG" />
                                 </motion.div    >
                                 <div className='subtitles'>Acharya Vidyasagarji</div>
                             </div>
@@ -48,7 +51,7 @@ export default function CardWhite() {
                     <Card.Body><div className='d-flex justify-content-center'>
                         <div className='imagegroup'>
                             <motion.div whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.9 }}>
+                                whileTap={{ scale: 0.9 }} style={{ textAlign: "center" }}>
                                 <img src={om} alt="IMG" />
                             </motion.div>
                             <div className='subtitles'>This is the Text</div>

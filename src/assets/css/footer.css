@@ -1,0 +1,10 @@
+.col-lg :first-child {
+  font-weight: bold;
+}
+.footer {
+  background-color: #404040;
+  color: wheat;
+}
+.col:hover {
+  color: white;
+}
