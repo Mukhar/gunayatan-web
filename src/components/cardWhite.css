@@ -18,7 +18,8 @@
   left: auto; */
 }
 .cardwhite img {
-  max-width: 300px;
+/*   max-width: 300px; */
+max-width: 100%;
   border-radius: 5px;
 }
 

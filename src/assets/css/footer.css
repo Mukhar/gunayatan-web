@@ -1,5 +1,10 @@
 .col-lg :first-child {
   font-weight: bold;
+  color: #ffaa60;
+}
+.col-lg :first-child:hover {
+  color: #ffaa60;
+  cursor: default;
 }
 .footer {
   background-color: #404040;
@@ -7,4 +12,12 @@
 }
 .col:hover {
   color: white;
+  cursor: pointer;
+}
+.footer-logo {
+  max-width: 30%;
+}
+
+.border-color-gold {
+  border-color: #ffaa60 !important;
 }
