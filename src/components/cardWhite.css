@@ -18,12 +18,18 @@
   left: auto; */
 }
 .cardwhite img {
-/*   max-width: 300px; */
-max-width: 100%;
+  /*   max-width: 300px; */
+  max-width: 100%;
   border-radius: 5px;
 }
 
 .imagegroup:hover {
   color: orangered;
   transition-duration: 0.4s;
+}
+
+@media (max-width: 500px) {
+  .hide-mobile {
+    display: none;
+  }
 }
