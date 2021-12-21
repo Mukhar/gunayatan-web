@@ -11,12 +11,12 @@ export default function FullscreenTextImage() {
         <Container fluid>
             <Row >
                 <Col className='px-0 bg-red' md={5}>
-                    <div className='d-flex justify-content-center py-3 fti-leftblock'>
+                    <div className='d-flex justify-content py-3 fti-leftblock'>
                         <h1>Gunayatan Theme Park</h1>
                     </div>
-                    <h5 className='px-2 text-center'>'गुणस्थान' जैन धर्म का एक वैशिष्ट शब्द है. जैन साधना पद्धति में आत्मा के क्रमिक विकास के सोपानों को गुणस्थान कहा जाता है। इन्हीं गुणस्थानों को साकार करने का अद्भुत प्रयास है- ‘गुणायतन’</h5>
+                    <h5 className='px-2 text-justify'>'Gunasthan' is a special word of Jainism. The stages of the gradual development of the soul in Jain spiritual practice are called Gunasthan. A wonderful effort to realize these Gunasthan is - 'Gunayatan'</h5>
                     <br />
-                    <h5 className='px-2 text-center'>‘गुणायतन’ मुनिश्री के प्रौढ़ चिन्तन और परिपक्व परिकल्पना का जीवन्त प्रमाण है। जैन धर्मावलम्बियों के शिरोमणि तीर्थस्थल श्रीसम्मेद शिखर जी की तलहटी में निर्माणाधीन यह एक ऐसा उपक्रम है, जिसके माध्यम से पोथियों की बातों को पल में जाना जा सके</h5>
+                    <h5 className='px-2 text-justify'>'Gunayatan' is a living proof of Munishri's mature thinking and vision. Under construction, this is such an endeavor in the foothills of Shri Sammed Shikhar ji, the Shiromani shrine of Jains, through which the things of the books can be understood in a moment</h5>
 
                 </Col>
                 <Col className='px-0' md={7}>

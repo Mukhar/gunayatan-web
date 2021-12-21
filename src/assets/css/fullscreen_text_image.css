@@ -1,10 +1,15 @@
 .bg-red {
   /* background-image: url("./../images/bg-7.png"); */
-  background-image: url("./../images/halfCutMountain.jpg");
+  /* background-image: url("./../images/halfCutMountain.jpg"); */
   /* height: 100vh; */
-  color: #ff4500;
+  background-image: url("./../images/cutbg.jpg");
+  color: #446060;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.bg-red h5 {
+  font-weight: 800 !important;
+  color: black;
 }
 .fti-leftblock {
   padding-top: 10px;

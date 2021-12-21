@@ -21,3 +21,7 @@
 .border-color-gold {
   border-color: #ffaa60 !important;
 }
+.mountainbg {
+  background-image: url(./../images/mountain-combined.png);
+  background-position: bottom;
+}

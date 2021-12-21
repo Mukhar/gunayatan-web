@@ -38,7 +38,8 @@ export default function Dharma() {
                                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                                 </Carousel.Caption> */}
                             </Carousel.Item>
-                        </Carousel></Col>
+                        </Carousel>
+                    </Col>
                 </Row>
             </Container>
 

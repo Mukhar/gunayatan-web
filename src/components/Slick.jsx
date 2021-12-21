@@ -4,10 +4,12 @@ import Container from 'react-bootstrap/esm/Container';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import img3 from "./../assets/images/image-25-copyright-600x463.jpg";
-import img2 from "./../assets/images/image-26-copyright-600x463.jpg";
-import img1 from "./../assets/images/image-27-copyright-600x463.jpg";
-
+// import img3 from "./../assets/images/image-25-copyright-600x463.jpg";
+// import img2 from "./../assets/images/image-26-copyright-600x463.jpg";
+// import img1 from "./../assets/images/image-27-copyright-600x463.jpg";
+import img1 from "./../assets/images/slick1.jpg";
+import img2 from "./../assets/images/slick2.jpg";
+import img3 from "./../assets/images/slick3.jpg";
 export default function Slick() {
     var settings = {
         dots: true,

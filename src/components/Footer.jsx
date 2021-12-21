@@ -9,10 +9,12 @@ import Button from 'react-bootstrap/Button'
 // import gun from './../assets/icons/Gunayatan_Black.png'
 import gun from './../assets/icons/Gunayatan_Grey.svg'
 import logo from "./../assets/images/gunayatan_logo.png"
+import mountain from "./../assets/images/mountain-combined.png"
+
 
 export default function Footer() {
     return (<>
-        <Row style={{ justifyContent: "center" }}>
+        <Row style={{ justifyContent: "center" }} className='mountainbg'>
             <img src={gun} style={{ maxWidth: "200px" }} ></img>
         </Row>
         <Container fluid className='footer py-2' >
@@ -70,6 +72,7 @@ export default function Footer() {
                     </Col>
                     <Col lg={true}>
                         <Col >LINKS</Col>
+                        <Col >Members Login</Col>
                         <Col >Swagatam</Col>
                         <Col >Mandir</Col>
                         <Col >Abhishek Mandap</Col>

@@ -7,6 +7,7 @@ import CardWhite from './components/Card';
 import Dharma from './components/Dharma';
 import FullscreenTextImage from './components/FullscreenTextImage';
 import SectionComp from './components/SectionComp';
+import SectionScheme from './components/SectionScheme';
 import SubscribeNews from './components/SubscribeNews';
 import Slick from './components/Slick';
 import divider from './assets/icons/divider.png'
@@ -25,10 +26,10 @@ function App() {
     }} />
     <FullscreenTextImage />
 
-    <SectionComp heading="Heading1" />
+    <SectionComp heading="Gunayatan Gyan Mandir" />
 
     <Slick />
-    <SectionComp heading="Heading2" />
+    <SectionScheme heading="...towards achieving the ultimate goal" />
     <SubscribeNews />
     <Footer />
   </>

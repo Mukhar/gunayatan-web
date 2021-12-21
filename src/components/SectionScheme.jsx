@@ -3,31 +3,36 @@ import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import "../assets/css/SectionComp.css"
-import img3 from "./../assets/images/image-25-copyright-600x463.jpg"
-import img2 from "./../assets/images/image-26-copyright-600x463.jpg"
-import img1 from "./../assets/images/image-27-copyright-600x463.jpg"
+import img2 from "./../assets/images/holograph2.png"
+import img3 from "./../assets/images/pravachanHall.png"
+import img1 from "./../assets/images/fourcardone.jpg"
 import { motion } from "framer-motion"
 import mainMandir from "./../assets/images/Gunayatan_Main_Mandir.png";
 
-export default function SectionComp(props) {
+export default function SectionScheme(props) {
     // eslint-disable-next-line
     const [cardarray, setcardarray] = useState([
         {
             img: img1,
-            cardTitle: "SahasraKoot Jin Mandir",
+            cardTitle: "Sadhana Basati",
             class: "",
             cardText: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         }, {
-            img: mainMandir,
-            cardTitle: "Main Mandir",
+            img: img2,
+            cardTitle: "Jain Library and Research Center",
             class: "radient-gradient-grey",
             cardText: "Some quick example text to build on the card title and make up the bulk of the card's content."
         }, {
             img: img3,
-            cardTitle: "Chaubisi Jin Mandir",
+            cardTitle: "Pravachan Hall",
             class: "",
             cardText: "Some quick example text to build on the card title and make up the bulk of the card's content."
-        },
+        }, {
+            img: img1,
+            cardTitle: "Sant Nivas",
+            class: "",
+            cardText: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        }
     ]);
     return (
         <Container>
@@ -41,7 +46,7 @@ export default function SectionComp(props) {
                     <motion.div whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}>
                         <Card style={{
-                            width: '18rem',
+                            width: '16rem',
                             borderRadius: "10px 10px 5px 5px",
                             marginLeft: "15px"
                         }} className="text-center">
