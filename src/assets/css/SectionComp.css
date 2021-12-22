@@ -15,7 +15,10 @@
   /* width: 20em; */
   flex-wrap: wrap;
 }
-.card {
+.pattern-bg {
+  background-image: url(./../images/bg-04.jpg);
+  background-repeat: repeat;
+  background-size: 5% auto;
 }
 .card > img {
   width: 100%;
