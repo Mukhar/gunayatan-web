@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import "../assets/css/SectionComp.css"
-import img3 from "./../assets/images/test2.png"
+// import img3 from "./../assets/images/test2.png"
 import img2 from "./../assets/images/image-26-copyright-600x463.jpg"
 import img1 from "./../assets/images/Picture9.png"
 import { motion } from "framer-motion"
@@ -23,7 +23,7 @@ export default function SectionComp(props) {
             class: "radient-gradient-grey",
             cardText: "Some quick example text to build on the card title and make up the bulk of the card's content."
         }, {
-            img: img3,
+            img: img1,
             cardTitle: "Chaubisi Jin Mandir",
             class: "",
             cardText: "Some quick example text to build on the card title and make up the bulk of the card's content."
