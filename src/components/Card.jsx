@@ -32,7 +32,7 @@ export default function CardWhite() {
                         </div>
                     </Card.Body>
                 </Card>
-                <img src={line} className='hide-mobile' alt="divider" srcset="" />
+                {/* <img src={line} className='hide-mobile' alt="divider" srcset="" /> */}
 
                 <Card className='border-0'>
                     <Card.Body>
@@ -47,7 +47,7 @@ export default function CardWhite() {
                         </div>
                     </Card.Body>
                 </Card>
-                <img src={line} className='hide-mobile' alt="divider" srcset="" />
+                {/* <img src={line} className='hide-mobile' alt="divider" srcset="" /> */}
                 <Card className='border-0'>
                     <Card.Body><div className='d-flex justify-content-center'>
                         <div className='imagegroup'>
