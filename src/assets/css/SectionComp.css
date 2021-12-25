@@ -15,6 +15,10 @@
   /* width: 20em; */
   flex-wrap: wrap;
 }
+.card-comp {
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
+  margin-top: 10px;
+}
 .pattern-bg {
   background-image: url(./../images/bg-04.jpg);
   background-repeat: repeat;

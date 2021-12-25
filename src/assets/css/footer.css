@@ -15,13 +15,17 @@
   cursor: pointer;
 }
 .footer-logo {
-  max-width: 30%;
+  /* max-width: 30%; */
+  max-width: 60%;
 }
 
 .border-color-gold {
   border-color: #ffaa60 !important;
 }
 .mountainbg {
-  background-image: url(./../images/mountain-combined.png);
+  /* background-image: url(./../images/mountain-combined.png); */
+  background: linear-gradient(24deg, #ff662ec9, transparent);
+
   background-position: bottom;
+  background-repeat: repeat-x;
 }

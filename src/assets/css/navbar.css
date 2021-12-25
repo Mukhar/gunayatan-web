@@ -15,10 +15,12 @@
   /* color: rgb(68, 43, 33) !important; */
   box-shadow: 5px 5px 8px rgba(250, 252, 255, 0.634);
   font-family: quicksand, sans-serif;
-  /* font-size: 20px; */
+  font-size: 1.5vw;
   font-weight: bold;
   padding: 0px;
-  background-color: wheat !important;
+  /* background-color: wheat !important; */
+  background: linear-gradient(151deg, wheat, transparent);
+
   /* background-color: #404040 !important; */
 }
 .nav-link {

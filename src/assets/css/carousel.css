@@ -16,8 +16,8 @@
   }
 }
 .carousel-inner .item img {
-  -webkit-animation: zoom 25s;
-  animation: zoom 25s;
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
   max-height: 800px;
 }
 .carousel-item {
@@ -26,8 +26,8 @@
 
 .carousel-inner .active > img {
   transform: scale(1.2) !important;
-  transition-duration: 25s !important;
-  -webkit-transition-duration: 25s !important;
+  transition-duration: 20s !important;
+  -webkit-transition-duration: 20s !important;
   -webkit-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;

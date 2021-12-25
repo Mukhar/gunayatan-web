@@ -2,7 +2,8 @@
   /* background-image: url("./../images/bg-7.png"); */
   /* background-image: url("./../images/halfCutMountain.jpg"); */
   /* height: 100vh; */
-  background-image: url("./../images/cutbg.jpg");
+  /* background-image: url("./../images/cutbg.jpg"); */
+  background: linear-gradient(151deg, #ff662ec9, transparent);
   color: #446060;
   background-repeat: no-repeat;
   background-size: cover;

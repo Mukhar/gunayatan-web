@@ -1,3 +1,4 @@
 .subscribeBackground {
-  background: url(./../assets/images/bg-7.png);
+  /* background: url(./../assets/images/bg-7.png); */
+  background: linear-gradient(151deg, #ff662ec9, transparent);
 }
