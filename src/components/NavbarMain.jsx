@@ -7,18 +7,15 @@ import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 import "./../assets/css/navbar.css";
-// import logo from "./../assets/images/gunayatan_logo_2_thin.png";
-import logo from "./../assets/icons/11.png"
+import logo from "./../assets/images/gunayatan_logo.png";
+// import logo from "./../assets/icons/11.png"
 
 export default function NavbarMain() {
     return (<>
         <div className="OrangeBar"></div>
-
         <Navbar bg="light" expand="lg" sticky="top">
-
             <Container fluid>
-
-                <Navbar.Brand href="#"><img className='logo' src={logo} alt="http://great-lotus.ancorathemes.com/wp-content/uploads/2018/01/logo-retina.png" /></Navbar.Brand>
+                <Navbar.Brand href="#"><img className='logo' src={logo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className="justify-content-end">
                     <Nav
@@ -37,9 +34,9 @@ export default function NavbarMain() {
                                 Something else here
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#action2">Schemes</Nav.Link>
-                        <Nav.Link href="#action2">Progress</Nav.Link>
-                        <Nav.Link href="#action2">Donation</Nav.Link>
+                        <Nav.Link href="#action3">Schemes</Nav.Link>
+                        <Nav.Link href="#action4">Progress</Nav.Link>
+                        {/* <Nav.Link href="#action2">Donation</Nav.Link> */}
 
                         {/* <Nav.Link href="#" disabled>
                             Link
@@ -53,11 +50,10 @@ export default function NavbarMain() {
                             aria-label="Search"
                         />                        
                     </Form> */}
-                    <Button variant="outline-success">Search</Button>
+                    <Button variant="outline-success">Donate</Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
     </>
-
     )
 }

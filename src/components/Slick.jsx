@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 // import img3 from "./../assets/images/image-25-copyright-600x463.jpg";
 // import img2 from "./../assets/images/image-26-copyright-600x463.jpg";
 // import img1 from "./../assets/images/image-27-copyright-600x463.jpg";
-import img1 from "./../assets/images/slick1.jpg";
+import img1 from "./../assets/images/wall1.jpg";
 import img2 from "./../assets/images/slick2.jpg";
 import img3 from "./../assets/images/slick3.jpg";
 export default function Slick() {
@@ -37,7 +37,7 @@ export default function Slick() {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                         </Card.Text>
-                        <Button variant="primary ">Go somewhere</Button>
+                        <Button variant="primary ">Explore More</Button>
                     </Card.Body> */}
                     </Card>
                 )}

@@ -58,7 +58,7 @@ export default function SectionScheme(props) {
                                 <Card.Text>
                                     {obj.cardText}
                                 </Card.Text>
-                                <Button variant="primary ">Go somewhere</Button>
+                                <Button variant="primary ">Explore More</Button>
                             </Card.Body>
                         </Card>
                     </motion.div>

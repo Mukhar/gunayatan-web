@@ -8,7 +8,7 @@ import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 // import gun from './../assets/icons/Gunayatan_Black.png'
 import gun from './../assets/icons/Gunayatan_Grey.svg'
-import logo from "./../assets/images/gunayatan_logo.png"
+import logo from "./../assets/icons/13.png"
 import mountain from "./../assets/images/mountain-combined.png"
 
 
@@ -37,7 +37,7 @@ export default function Footer() {
                         <Col >EXPLORE</Col>
                         <Col >Swagatam</Col>
                         <Col >Mandir</Col>
-                        <Col >Abhishek Mandap</Col>
+                        <Col >Theme Park</Col>
                     </Col>
                     <Col lg={true} >
                         <Col >VISIT</Col>
@@ -51,9 +51,9 @@ export default function Footer() {
                     </Col>
                     <Col lg={true}>
                         <Col >NEWS</Col>
-                        <Col >Swagatam</Col>
-                        <Col >Mandir</Col>
-                        <Col >Abhishek Mandap</Col>
+                        <Col >Nirman Pragati</Col>
+                        <Col >New Members</Col>
+                        <Col >Updates</Col>
                         <Col lg={true}>
                             <Col>DOWNLOADS</Col>
                             <Col>Visitor Guide</Col>
@@ -73,12 +73,12 @@ export default function Footer() {
                     <Col lg={true}>
                         <Col >LINKS</Col>
                         <Col >Members Login</Col>
-                        <Col >Swagatam</Col>
-                        <Col >Mandir</Col>
-                        <Col >Abhishek Mandap</Col>
+                        <Col >Pathshala</Col>
+                        <Col >Muni Pramansagar</Col>
+                        <Col >Sevayatan</Col>
                     </Col>
                 </Row>
-                <Row className="justify-content-center"> @Copyright Gunaytan.org</Row>
+                <Row className="justify-content-center"> @Copyright Gunaytan.Com</Row>
             </Container>
 
         </Container>

@@ -45,14 +45,14 @@ export default function SectionComp(props) {
                                 width: '18rem',
                                 borderRadius: "10px 10px 5px 5px",
                                 marginLeft: "15px"
-                            }} className="text-center">
+                            }} className="text-center card-comp">
                                 <Card.Img variant="top" src={obj.img} className={obj.class} />
                                 <Card.Body text>
                                     <Card.Title>{obj.cardTitle}</Card.Title>
                                     <Card.Text>
                                         {obj.cardText}
                                     </Card.Text>
-                                    <Button variant="primary ">Go somewhere</Button>
+                                    <Button variant="primary ">Explore More</Button>
                                 </Card.Body>
                             </Card>
                         </motion.div>

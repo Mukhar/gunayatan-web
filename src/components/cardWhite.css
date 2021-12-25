@@ -21,13 +21,17 @@
   /*   max-width: 300px; */
   max-width: 100%;
   border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
 }
 
 .imagegroup:hover {
   color: orangered;
   transition-duration: 0.4s;
 }
-
+.subtitles {
+  font-size: 3vh;
+  text-align: center;
+}
 @media (max-width: 500px) {
   .hide-mobile {
     display: none;
