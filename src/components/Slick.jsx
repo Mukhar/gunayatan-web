@@ -30,7 +30,7 @@ export default function Slick() {
                         // borderRadius: "10px 10px 5px 5px",
                         marginLeft: "15px"
                     }} className="text-center">
-                        <Card.Img variant="top" src={obj.img} />
+                        <Card.Img variant="top" src={obj.img} style={{ maxHeight: "450px", objectFit: "cover", border: "none" }} />
                         {/* <Card.Body text>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
