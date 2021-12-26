@@ -24,3 +24,4 @@ yarn-error.log*
 src/assets/webp/**
 src/assets/hires/
 src/assets/images-fb/
+src/assets/icons/ignored/
