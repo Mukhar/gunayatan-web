@@ -47,3 +47,12 @@ svg:hover {
   filter: brightness(150%);
   -webkit-transition: 0.5s;
 }
+.sidebar {
+  position: absolute;
+  padding: 5px;
+  right: 0px;
+  margin-bottom: 55px;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+}
