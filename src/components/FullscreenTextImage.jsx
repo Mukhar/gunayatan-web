@@ -14,9 +14,9 @@ export default function FullscreenTextImage() {
                     <div className='d-flex justify-content py-3 fti-leftblock'>
                         <h1>Gunayatan Theme Park</h1>
                     </div>
-                    <h5 className='px-2 text-justify'>'Gunasthan' is a special word of Jainism. The stages of the gradual development of the soul in Jain spiritual practice are called Gunasthan. A wonderful effort to realize these Gunasthan is - 'Gunayatan'</h5>
+                    <h5 className='px-2 text-justify' style={{ textAlign: "justify" }}>'Gunasthan' is a special word of Jainism. The stages of the gradual development of the soul in Jain spiritual practice are called Gunasthan. A wonderful effort to realize these Gunasthan is - 'Gunayatan'</h5>
                     <br />
-                    <h5 className='px-2 text-justify'>'Gunayatan' is a living proof of Munishri's mature thinking and vision. Under construction, this is such an endeavor in the foothills of Shri Sammed Shikhar ji, the Shiromani shrine of Jains, through which the things of the books can be understood in a moment</h5>
+                    <h5 className='px-2 text-justify' style={{ textAlign: "justify" }}> 'Gunayatan' is a living proof of Munishri's mature thinking and vision. Under construction, this is such an endeavor in the foothills of Shri Sammed Shikhar ji, the Shiromani shrine of Jains, through which the things of the books can be understood in a moment</h5>
 
                 </Col>
                 <Col className='px-0' md={7}>
