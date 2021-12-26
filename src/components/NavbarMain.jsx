@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button'
 import "./../assets/css/navbar.css";
 import logo from "./../assets/images/gunayatan_logo.png";
 // import logo from "./../assets/icons/11.png"
-
+// import "./../assets/css/button3dstyle.css"
 export default function NavbarMain() {
     return (<>
         <div className="OrangeBar"></div>
@@ -23,7 +23,7 @@ export default function NavbarMain() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1">Home</Nav.Link>
+                        <Nav.Link href="#action1" >Home</Nav.Link>
                         <Nav.Link href="#action2">14 Gunsthan</Nav.Link>
                         <NavDropdown title="About Us" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
@@ -50,7 +50,9 @@ export default function NavbarMain() {
                             aria-label="Search"
                         />                        
                     </Form> */}
-                    <Button variant="outline-success">Donate</Button>
+                    <Button variant="outline-success" className='threed '>
+                        Donate
+                    </Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

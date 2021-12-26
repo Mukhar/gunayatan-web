@@ -26,11 +26,12 @@ export default function Slick() {
             <Slider {...settings}>
                 {cardarray.map((obj, i) =>
                     <Card style={{
-                        width: '18rem',
-                        // borderRadius: "10px 10px 5px 5px",
+                        width: "18rem",
+                        borderRadius: "10px !important",
                         marginLeft: "15px"
                     }} className="text-center">
-                        <Card.Img variant="top" src={obj.img} style={{ maxHeight: "450px", objectFit: "cover", border: "none" }} />
+                        <Card.Img variant="top" src={obj.img}
+                            style={{ maxHeight: "600px", objectFit: "cover", border: "none" }} />
                         {/* <Card.Body text>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
