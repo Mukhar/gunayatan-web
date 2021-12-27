@@ -30,6 +30,9 @@
 .card-img-top {
   border-radius: 10px 10px 0px 0px;
 }
+.card {
+  margin-top: 10px;
+}
 .radient-gradient-grey {
   background: radial-gradient(#6c757d, transparent);
 }

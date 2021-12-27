@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Facebook() {
     return (
-        <a href='#'>
+        <a href='https://www.facebook.com/GUNAYATANSHIKHARJI/'>
             <div className="social-icons facebook">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">

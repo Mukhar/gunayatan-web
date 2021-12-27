@@ -29,11 +29,20 @@
   transition-duration: 0.4s;
 }
 .subtitles {
-  font-size: 3vh;
+  font-size: 2.5vw;
   text-align: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .hide-mobile {
     display: none;
+  }
+  .subtitles {
+    font-size: 4.5vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subtitles {
+    font-size: 32px !important;
   }
 }

@@ -5,8 +5,8 @@ import Container from 'react-bootstrap/Container'
 import "../assets/css/SectionComp.css"
 import img2 from "./../assets/images/holograph2.png"
 import img3 from "./../assets/images/pravachanHall.png"
-import img1 from "./../assets/images/sadhanaBasati.jpg"
-import img4 from "./../assets/images/fourcardone.jpg"
+import img1 from "./../assets/images/sadhanaBasati1.jpg"
+import img4 from "./../assets/images/santNivas.jpg"
 
 import { motion } from "framer-motion"
 import mainMandir from "./../assets/images/Gunayatan_Main_Mandir.png";
@@ -30,7 +30,7 @@ export default function SectionScheme(props) {
             class: "",
             cardText: "Some quick example text to build on the card title and make up the bulk of the card's content."
         }, {
-            img: img1,
+            img: img4,
             cardTitle: "Sant Nivas",
             class: "",
             cardText: "Some quick example text to build on the card title and make up the bulk of the card's content.",

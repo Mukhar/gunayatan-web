@@ -12,6 +12,7 @@ import SubscribeNews from './components/SubscribeNews';
 import Slick from './components/Slick';
 import divider from './assets/icons/divider.png'
 import Footer from './components/Footer';
+import JoinUs from './components/JoinUs';
 function App() {
   return (<>
     <NavbarMain />
@@ -30,6 +31,7 @@ function App() {
 
     <Slick />
     <SectionScheme heading="...towards achieving the ultimate goal" />
+    <JoinUs />
     <SubscribeNews />
     <Footer />
   </>

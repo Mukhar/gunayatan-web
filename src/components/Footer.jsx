@@ -11,7 +11,7 @@ import gun from './../assets/icons/Gunayatan_Grey.svg'
 import logo from "./../assets/icons/logo with tag line-golden.png"
 
 // import logo from "./../assets/icons/logo with tag line-red.png"
-import mountain from "./../assets/images/mountain-combined.png"
+import bottom from "./../assets/icons/gunayatan_bottom.png"
 import Facebook from './social/Facebook'
 import Twitter from './social/Twitter'
 import Instagram from './social/Instagram'
@@ -21,7 +21,7 @@ import Instagram from './social/Instagram'
 export default function Footer() {
     return (<>
         <Row style={{ justifyContent: "center" }} className='mountainbg'>
-            <img src={gun} style={{ maxWidth: "200px" }} ></img>
+            <img src={bottom}  ></img>
         </Row>
         <div className='sidebar'>
             <Facebook />
@@ -31,8 +31,8 @@ export default function Footer() {
         <Container fluid className='footer py-2' >
             <Container>
                 <Row className='py-2 row justify-content-between  border-bottom border-3 border-color-gold'>
-                    <Col xs={4} ><img className="footer-logo" src={logo} alt='Logo' /></Col>
-                    <Col xs={3} className='d-flex' style={{ justifyContent: "center" }}>
+                    <Col xs={4}  ><img className="footer-logo" src={logo} alt='Logo' /></Col>
+                    <Col xs={4} className='d-flex' style={{ justifyContent: "center" }}>
                         <Facebook />
                         <Twitter />
                         <Instagram />

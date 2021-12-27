@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Instagram() {
     return (
-        <a href=''>
+        <a href='https://www.instagram.com/gunayatanshikharji/'>
             <div className="social-icons instagram">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
