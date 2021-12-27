@@ -7,9 +7,6 @@ import "./../assets/css/carousel.css";
 import slide1 from "./../assets/images/ol/1.jpg";
 import slide2 from "./../assets/images/ol/2.jpg";
 
-// import slide1 from "./../assets/images-fb/new2.png";
-// import slide2 from "./../assets/images-fb/new3.png";
-
 import slide3 from "./../assets/images/ol/3.jpg";
 import slide4 from "./../assets/images/carousel/4.jpg";
 import slide5 from "./../assets/images/carousel/5.jpg";
@@ -28,9 +25,9 @@ export default function CarouselBody() {
     ]);
     return (
         <div>
-            <Carousel fade>
+            <Carousel fade className="TopCarousel">
                 {img1.map((element, i) => (
-                    <Carousel.Item interval={5000}>
+                    <Carousel.Item interval={5000} >
                         <img
                             className="d-block w-100"
                             src={element.img}

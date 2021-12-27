@@ -9,6 +9,7 @@ import "./cardWhite.css"
 import vidyasagar from './../assets/images/Vidyasagar1.jpg'
 // import pramansagar from './../assets/images/Muni_Pramansagar_ji.jpg'
 import pramansagar from './../assets/images/pramansagar-2.jpg'
+// import shikharjee from './../assets/images/parasnath_tonk.jpg'
 import shikharjee from './../assets/images/6.jpg'
 
 import { motion } from "framer-motion"
@@ -55,7 +56,7 @@ export default function CardWhite() {
                                 whileTap={{ scale: 0.9 }} style={{ textAlign: "center" }}>
                                 <img src={shikharjee} alt="IMG" />
                             </motion.div>
-                            <div className='subtitles'>This is the Text</div>
+                            <div className='subtitles'>Shree Sammed ShikharJee</div>
                         </div></div></Card.Body>
                 </Card>
             </CardGroup>

@@ -31,17 +31,17 @@
   transition: color 0.3s ease, background-color 0.3s ease,
     border-color 0.3s ease;
 }
-.nav-link:hover {
+/* .nav-link:hover {
   color: orangered !important;
   border-bottom: 3px solid orangered;
-  /* border-top: 3px solid orangered; */
   border-radius: 10px;
   transition: color 0.3s ease, background-color 0.3s ease,
     border-color 0.3s ease;
-}
-.active {
+} */
+
+/* .active {
   border-bottom: 3px solid orangered;
-}
+} */
 .OrangeBar {
   background: orangered;
   height: 3px;
@@ -51,5 +51,18 @@
   z-index: 10000;
 }
 .threed {
-  box-shadow: -5px -5px 15px 2px rgb(255, 255, 255), 5px 5px 15px 2px grey;
+  box-shadow: -10px -5px 15px 2px rgb(255, 255, 255),
+    2px 5px 15px 2px rgb(0, 0, 0);
+}
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 2.5vw;
+  }
+}
+.navbar-nav a {
+  padding: 0 !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  color: tomato !important;
+  /* box-shadow: -5px -5px 15px 2px rgb(255 255 255), 5px 5px 15px 2px grey; */
 }

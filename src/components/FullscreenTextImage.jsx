@@ -10,7 +10,7 @@ export default function FullscreenTextImage() {
     return (
         <Container fluid>
             <Row >
-                <Col className='px-0 bg-red' md={5}>
+                <Col className='px-1 bg-red' md={5}>
                     <div className='d-flex justify-content py-3 fti-leftblock'>
                         <h1>Gunayatan Theme Park</h1>
                     </div>

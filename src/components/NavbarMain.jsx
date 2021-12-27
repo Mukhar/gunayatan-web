@@ -23,7 +23,7 @@ export default function NavbarMain() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1" >Home</Nav.Link>
+                        <Nav.Link id="nav-home" href="#action1" active>Home</Nav.Link>
                         <Nav.Link href="#action2">14 Gunsthan</Nav.Link>
                         <NavDropdown title="About Us" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
@@ -34,8 +34,10 @@ export default function NavbarMain() {
                                 Something else here
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#action3">Schemes</Nav.Link>
-                        <Nav.Link href="#action4">Progress</Nav.Link>
+                        {/* <Nav.Link href="#action3" >Schemes</Nav.Link> */}
+                        {/* <Nav.Link href="#action4">Progress</Nav.Link> */}
+                        <Button variant="outline-success" className='threed '>Schemes</Button>
+                        <Button variant="outline-success" className='threed '>Progress</Button>
                         {/* <Nav.Link href="#action2">Donation</Nav.Link> */}
 
                         {/* <Nav.Link href="#" disabled>
