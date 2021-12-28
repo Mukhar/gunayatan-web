@@ -11,8 +11,8 @@ export default function FullscreenTextImage() {
         <Container fluid>
             <Row >
                 <Col className='px-1 bg-red' md={5}>
-                    <div className='d-flex justify-content py-3 fti-leftblock'>
-                        <h1>Gunayatan Theme Park</h1>
+                    <div className='d-flex justify-content-center py-3 fti-leftblock'>
+                        <h1 >Gunayatan Theme Park</h1>
                     </div>
                     <h5 className='px-2 text-justify' style={{ textAlign: "justify" }}>'Gunasthan' is a special word of Jainism. The stages of the gradual development of the soul in Jain spiritual practice are called Gunasthan. A wonderful effort to realize these Gunasthan is - 'Gunayatan'</h5>
                     <br />

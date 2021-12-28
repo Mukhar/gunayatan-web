@@ -53,6 +53,8 @@
 .carousel-indicators {
   display: none;
 }
-.TopCarousel {
-  min-height: 51vw;
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
