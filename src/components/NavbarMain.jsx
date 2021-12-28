@@ -8,6 +8,7 @@ import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 import "./../assets/css/navbar.css";
 import logo from "./../assets/images/gunayatan_logo.png";
+import { Link } from 'react-router-dom'
 // import logo from "./../assets/icons/11.png"
 // import "./../assets/css/button3dstyle.css"
 export default function NavbarMain() {
@@ -24,7 +25,7 @@ export default function NavbarMain() {
                         navbarScroll
                     >
                         <Nav.Link id="nav-home" href="#action1" active>Home</Nav.Link>
-                        <Nav.Link href="#action2">14 Gunsthan</Nav.Link>
+                        <Link to="/about"> <Nav.Link href="#action2">14 Gunsthan</Nav.Link></Link>
                         <NavDropdown title="About Us" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
                             <NavDropdown.Item href="#action3">Managing Comittee</NavDropdown.Item>
@@ -34,15 +35,11 @@ export default function NavbarMain() {
                                 Something else here
                             </NavDropdown.Item>
                         </NavDropdown>
-                        {/* <Nav.Link href="#action3" >Schemes</Nav.Link> */}
-                        {/* <Nav.Link href="#action4">Progress</Nav.Link> */}
-                        <Button variant="outline-success" className='threed '>Schemes</Button>
-                        <Button variant="outline-success" className='threed '>Progress</Button>
+                        <Nav.Link href="#action3" >Schemes</Nav.Link>
+                        <Nav.Link href="#action4">Progress</Nav.Link>
+                        {/* <Button variant="outline-success">Schemes</Button> */}
+                        {/* <Button variant="outline-success">Progress</Button> */}
                         {/* <Nav.Link href="#action2">Donation</Nav.Link> */}
-
-                        {/* <Nav.Link href="#" disabled>
-                            Link
-                        </Nav.Link> */}
                     </Nav>
                     {/* <Form className="d-flex">
                         <FormControl

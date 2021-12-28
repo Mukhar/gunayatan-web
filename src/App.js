@@ -1,39 +1,11 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/common.css"
-import NavbarMain from './components/NavbarMain';
-import CarouselBody from './components/Carousel';
-import CardWhite from './components/Card';
-import Dharma from './components/Dharma';
-import FullscreenTextImage from './components/FullscreenTextImage';
-import SectionComp from './components/SectionComp';
-import SectionScheme from './components/SectionScheme';
-import SubscribeNews from './components/SubscribeNews';
-import Slick from './components/Slick';
-import divider from './assets/icons/divider.png'
-import Footer from './components/Footer';
-import JoinUs from './components/JoinUs';
+
+import RouteMain from './Route';
 function App() {
   return (<>
-    <NavbarMain />
-    <CarouselBody />
-    <CardWhite />
-    <Dharma />
-    <img src={divider} style={{
-      width: "20%",
-      textAlign: 'center',
-      margin: "10px auto 10px auto",
-      display: 'block'
-    }} />
-    <FullscreenTextImage />
-
-    <SectionComp heading="Gunayatan Gyan Mandir" />
-
-    <Slick />
-    <SectionScheme heading="...towards achieving the ultimate goal" />
-    <JoinUs />
-    <SubscribeNews />
-    <Footer />
+    <RouteMain />
   </>
     // <div className="App">
     //   <header className="App-header">
