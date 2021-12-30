@@ -30,11 +30,11 @@ export default function Footer() {
             <Container>
                 <Row className='py-2 row justify-content-between  border-bottom border-3 border-color-gold'>
                     <Col xs={4}  ><img className="footer-logo" src={logo} alt='Logo' /></Col>
-                    <Col xs={4} className='d-flex' style={{ justifyContent: "center" }}>
+                    {/* <Col xs={4} className='d-flex' style={{ justifyContent: "center" }}>
                         <Facebook />
                         <Twitter />
                         <Instagram />
-                    </Col>
+                    </Col> */}
                     <Col xs={4} className='my-auto'><Form className="d-flex">
                         <FormControl
                             type="search"

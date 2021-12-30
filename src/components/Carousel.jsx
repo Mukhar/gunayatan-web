@@ -27,7 +27,8 @@ export default function CarouselBody() {
                         />
                         <Carousel.Caption>
                             <h3>{element.label}</h3>
-                            <p>{element.caption}</p>                        </Carousel.Caption>
+                            <p>{element.caption}</p>
+                        </Carousel.Caption>
                     </Carousel.Item>
                 ))
                 }</Carousel>
