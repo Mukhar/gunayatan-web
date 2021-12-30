@@ -8,7 +8,7 @@ import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 import "./../assets/css/navbar.css";
 import logo from "./../assets/images/gunayatan_logo.png";
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 // import logo from "./../assets/icons/11.png"
 // import "./../assets/css/button3dstyle.css"
 export default function NavbarMain() {
@@ -24,8 +24,8 @@ export default function NavbarMain() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Link to="/"><Nav.Link id="nav-home" active>Home</Nav.Link></Link>
-                        <Link to="/about"> <Nav.Link >14 Gunsthan</Nav.Link></Link>
+                        <Link to="/"><Nav.Item id="nav-home" active>Home</Nav.Item></Link>
+                        <NavLink to="/about"> <Nav.Item >14 Gunsthan</Nav.Item></NavLink>
                         <NavDropdown title="About Us" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
                             <NavDropdown.Item href="#action3">Managing Comittee</NavDropdown.Item>
@@ -35,11 +35,11 @@ export default function NavbarMain() {
                                 Something else here
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#action3" >Schemes</Nav.Link>
-                        <Nav.Link href="#action4">Progress</Nav.Link>
+                        <NavLink to="/about"> <Nav.Item href="#action3" >Schemes</Nav.Item></NavLink>
+                        <NavLink to="/about"><Nav.Item href="#action4">Progress</Nav.Item></NavLink>
                         {/* <Button variant="outline-success">Schemes</Button> */}
                         {/* <Button variant="outline-success">Progress</Button> */}
-                        {/* <Nav.Link href="#action2">Donation</Nav.Link> */}
+                        {/* <Nav.Item href="#action2">Donation</Nav.Item> */}
                     </Nav>
                     {/* <Form className="d-flex">
                         <FormControl

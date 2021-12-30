@@ -19,11 +19,11 @@
   padding: 0px;
   background: linear-gradient(151deg, wheat, transparent);
 }
-.navbar a {
+.nav-item {
   text-decoration: none;
   text-transform: capitalize;
 }
-.nav-link {
+.nav-item {
   margin-left: 5px;
   margin-right: 5px;
   text-align: center;
@@ -32,17 +32,17 @@
   transition: color 0.3s ease, background-color 0.3s ease,
     border-color 0.3s ease;
 }
-.nav-link:hover {
+.nav-item:hover {
   border-bottom: 3px solid orangered;
   border-radius: 5px 5px 2px 2px;
   transition: color 0.3s ease, background-color 0.3s ease,
     border-color 0.3s ease;
   background-color: #ffffffe0;
 }
-
-.nav-link:active {
+/* 
+.nav-item:active {
   border-bottom: 3px solid orangered;
-}
+} */
 .OrangeBar {
   background: orangered;
   height: 1px;
@@ -65,5 +65,6 @@
   padding-left: 0.5rem !important;
   padding-right: 0.5rem !important;
   color: tomato !important;
+  text-decoration: none;
   /* box-shadow: -5px -5px 15px 2px rgb(255 255 255), 5px 5px 15px 2px grey; */
 }

@@ -11,7 +11,7 @@ export default function RouteMain() {
         <Router>
             <NavbarMain />
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route exact path="/" element={<Home />} />
                 <Route path="/about" element={<Gunasthan />} />
                 {/* <Route path="/contact" element={<Contact />} />
                 <Route path="/blog" element={<Blog />}>
