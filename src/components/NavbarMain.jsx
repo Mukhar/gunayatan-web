@@ -25,12 +25,12 @@ export default function NavbarMain() {
                         navbarScroll
                     >
                         <Link to="/"><Nav.Item id="nav-home" active>Home</Nav.Item></Link>
-                        <NavLink to="/about"> <Nav.Item >14 Gunsthan</Nav.Item></NavLink>
+                        <NavLink to="/about"> <Nav.Item data-bs-toggle="collapse" data-bs-target=".navbar-collapse">14 Gunsthan</Nav.Item></NavLink>
                         <NavDropdown title="About Us" >
                             <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
                             <NavDropdown.Item href="#action3">Managing Comittee</NavDropdown.Item>
                             <NavDropdown.Item href="#action3">Core Members</NavDropdown.Item>
-                            <NavDropdown.Divider />
+                            {/* <NavDropdown.Divider /> */}
                             <NavDropdown.Item href="#action5">
                                 Something else here
                             </NavDropdown.Item>
