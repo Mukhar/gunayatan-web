@@ -15,7 +15,7 @@ export default function NavbarMain() {
     return (<>
         <div className="OrangeBar"></div>
         <Navbar bg="light" expand="lg" sticky="top">
-            <Container fluid>
+            <Container fluid className='hoverwhite'>
                 <Navbar.Brand href="#"><img className='logo' src={logo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className="justify-content-end">
@@ -24,8 +24,8 @@ export default function NavbarMain() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link id="nav-home" href="#action1" active>Home</Nav.Link>
-                        <Link to="/about"> <Nav.Link href="#action2">14 Gunsthan</Nav.Link></Link>
+                        <Link to="/"><Nav.Link id="nav-home" active>Home</Nav.Link></Link>
+                        <Link to="/about"> <Nav.Link >14 Gunsthan</Nav.Link></Link>
                         <NavDropdown title="About Us" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
                             <NavDropdown.Item href="#action3">Managing Comittee</NavDropdown.Item>
@@ -49,7 +49,7 @@ export default function NavbarMain() {
                             aria-label="Search"
                         />                        
                     </Form> */}
-                    <Button variant="outline-success" className='threed '>
+                    <Button variant="outline-success" className='threed fs-6'>
                         Donate
                     </Button>
                 </Navbar.Collapse>
