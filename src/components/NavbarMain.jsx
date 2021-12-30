@@ -3,9 +3,9 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import Form from 'react-bootstrap/Form'
-import FormControl from 'react-bootstrap/FormControl'
-import Button from 'react-bootstrap/Button'
+// import Form from 'react-bootstrap/Form'
+// import FormControl from 'react-bootstrap/FormControl'
+// import Button from 'react-bootstrap/Button'
 import "./../assets/css/navbar.css";
 import logo from "./../assets/images/gunayatan_logo.png";
 import { Link, NavLink } from 'react-router-dom'
@@ -16,7 +16,7 @@ export default function NavbarMain() {
         <div className="OrangeBar"></div>
         <Navbar id="navbar" bg="light" expand="lg" sticky="top">
             <Container fluid className='hoverwhite'>
-                <Navbar.Brand href="#"><img className='logo' src={logo} /></Navbar.Brand>
+                <Navbar.Brand href="#"><img className='logo' src={logo} alt='logo' /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className="justify-content-end">
                     <Nav

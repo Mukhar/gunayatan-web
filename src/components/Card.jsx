@@ -1,18 +1,14 @@
+import { motion } from "framer-motion"
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
-import buddha from './../assets/images/buddha.png'
-import elephant from './../assets/images/elephant.png'
-import om from './../assets/images/om.png'
-import line from './../assets/icons/line.png'
-import "./cardWhite.css"
-import vidyasagar from './../assets/images/Vidyasagar1.jpg'
-// import pramansagar from './../assets/images/Muni_Pramansagar_ji.jpg'
-import pramansagar from './../assets/images/pramansagar-2.jpg'
 // import shikharjee from './../assets/images/parasnath_tonk.jpg'
 import shikharjee from './../assets/images/6.jpg'
+// import pramansagar from './../assets/images/Muni_Pramansagar_ji.jpg'
+import pramansagar from './../assets/images/pramansagar-2.jpg'
+import vidyasagar from './../assets/images/Vidyasagar1.jpg'
+import "./cardWhite.css"
 
-import { motion } from "framer-motion"
 
 export default function CardWhite() {
 

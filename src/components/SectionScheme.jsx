@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
@@ -8,8 +9,6 @@ import img3 from "./../assets/images/pravachanHall.png"
 import img1 from "./../assets/images/sadhanaBasati1.jpg"
 import img4 from "./../assets/images/santNivas.jpg"
 
-import { motion } from "framer-motion"
-import mainMandir from "./../assets/images/Gunayatan_Main_Mandir.png";
 
 export default function SectionScheme(props) {
     // eslint-disable-next-line

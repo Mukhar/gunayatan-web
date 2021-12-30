@@ -8,15 +8,15 @@ export default function Gunasthan() {
     return (
         <Container fluid className='px-0'>
             <section className='px-0'>
-                <img src={img1} />
+                <img src={img1} alt='demo' />
             </section>
 
             <section className='px-0'>
-                <img src={img2} />
+                <img src={img2} alt='demo' />
             </section>
 
             <section className='px-0'>
-                <img src={img3} />
+                <img src={img3} alt='demo' />
             </section>
         </Container>
     )

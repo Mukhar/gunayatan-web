@@ -1,27 +1,25 @@
 import React from 'react'
-import Row from 'react-bootstrap/Row'
+import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
-import "./../assets/css/footer.css"
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
-import Button from 'react-bootstrap/Button'
-// import gun from './../assets/icons/Gunayatan_Black.png'
-import gun from './../assets/icons/Gunayatan_Grey.svg'
-import logo from "./../assets/icons/logo with tag line-golden.png"
-
+import Row from 'react-bootstrap/Row'
+import "./../assets/css/footer.css"
 // import logo from "./../assets/icons/logo with tag line-red.png"
 import bottom from "./../assets/icons/gunayatan_bottom.png"
+import logo from "./../assets/icons/logo with tag line-golden.png"
 import Facebook from './social/Facebook'
-import Twitter from './social/Twitter'
 import Instagram from './social/Instagram'
+import Twitter from './social/Twitter'
+
 
 
 
 export default function Footer() {
     return (<>
         <Row style={{ justifyContent: "center" }} className='mountainbg'>
-            <img src={bottom}  ></img>
+            <img src={bottom} alt='demo' ></img>
         </Row>
         <div className='sidebar'>
             <Facebook />

@@ -1,13 +1,11 @@
+import { motion } from "framer-motion"
 import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import "../assets/css/SectionComp.css"
-// import img3 from "./../assets/images/test2.png"
-import img2 from "./../assets/images/image-26-copyright-600x463.jpg"
+import mainMandir from "./../assets/images/Gunayatan_Main_Mandir.png"
 import img1 from "./../assets/images/Picture9.png"
-import { motion } from "framer-motion"
-import mainMandir from "./../assets/images/Gunayatan_Main_Mandir.png";
 
 export default function SectionComp(props) {
     // eslint-disable-next-line

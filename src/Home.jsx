@@ -1,19 +1,16 @@
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./assets/css/common.css"
-import NavbarMain from './components/NavbarMain';
-import CarouselBody from './components/Carousel';
+import './App.css';
+import "./assets/css/common.css";
 import CardWhite from './components/Card';
+import CarouselBody from './components/Carousel';
 import Dharma from './components/Dharma';
+import Divider from './components/Divider';
 import FullscreenTextImage from './components/FullscreenTextImage';
+import JoinUs from './components/JoinUs';
 import SectionComp from './components/SectionComp';
 import SectionScheme from './components/SectionScheme';
-import SubscribeNews from './components/SubscribeNews';
 import Slick from './components/Slick';
-import divider from './assets/icons/divider.png'
-import Footer from './components/Footer';
-import JoinUs from './components/JoinUs';
-import Divider from './components/Divider';
+import SubscribeNews from './components/SubscribeNews';
 function Home() {
   return (<>
     {/* <NavbarMain /> */}
