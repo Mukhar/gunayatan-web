@@ -13,18 +13,20 @@ import Slick from './components/Slick';
 import divider from './assets/icons/divider.png'
 import Footer from './components/Footer';
 import JoinUs from './components/JoinUs';
+import Divider from './components/Divider';
 function Home() {
   return (<>
     {/* <NavbarMain /> */}
     <CarouselBody />
     <CardWhite />
     <Dharma />
-    <img src={divider} style={{
+    <Divider />
+    {/* <img src={divider} style={{
       width: "20%",
       textAlign: 'center',
       margin: "10px auto 10px auto",
       display: 'block'
-    }} />
+    }} /> */}
     <FullscreenTextImage />
     <SectionComp heading="Gunayatan Gyan Mandir" />
     <Slick />

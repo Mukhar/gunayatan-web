@@ -14,19 +14,19 @@ import { Link, NavLink } from 'react-router-dom'
 export default function NavbarMain() {
     return (<>
         <div className="OrangeBar"></div>
-        <Navbar bg="light" expand="lg" sticky="top">
+        <Navbar id="navbar" bg="light" expand="lg" sticky="top">
             <Container fluid className='hoverwhite'>
                 <Navbar.Brand href="#"><img className='logo' src={logo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className="justify-content-end">
                     <Nav
                         className="me-2 my-2 my-lg-0"
-                        style={{ maxHeight: '100px' }}
+                        style={{ maxHeight: '100' }}
                         navbarScroll
                     >
                         <Link to="/"><Nav.Item id="nav-home" active>Home</Nav.Item></Link>
                         <NavLink to="/about"> <Nav.Item >14 Gunsthan</Nav.Item></NavLink>
-                        <NavDropdown title="About Us" id="navbarScrollingDropdown">
+                        <NavDropdown title="About Us" >
                             <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
                             <NavDropdown.Item href="#action3">Managing Comittee</NavDropdown.Item>
                             <NavDropdown.Item href="#action3">Core Members</NavDropdown.Item>
@@ -35,8 +35,10 @@ export default function NavbarMain() {
                                 Something else here
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <NavLink to="/about"> <Nav.Item href="#action3" >Schemes</Nav.Item></NavLink>
-                        <NavLink to="/about"><Nav.Item href="#action4">Progress</Nav.Item></NavLink>
+                        <NavLink to="/schemes"> <Nav.Item >Schemes</Nav.Item></NavLink>
+                        <NavLink to="/progress"><Nav.Item>Progress</Nav.Item></NavLink>
+                        <NavLink to="/donate"><Nav.Item >Donate</Nav.Item></NavLink>
+
                         {/* <Button variant="outline-success">Schemes</Button> */}
                         {/* <Button variant="outline-success">Progress</Button> */}
                         {/* <Nav.Item href="#action2">Donation</Nav.Item> */}
@@ -49,9 +51,9 @@ export default function NavbarMain() {
                             aria-label="Search"
                         />                        
                     </Form> */}
-                    <Button variant="outline-success" className='threed fs-6'>
+                    {/* <Button variant="outline-success" className='threed fs-6'>
                         Donate
-                    </Button>
+                    </Button> */}
                 </Navbar.Collapse>
             </Container>
         </Navbar>

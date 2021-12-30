@@ -1,0 +1,7 @@
+.divider {
+  background: URL("./../images/border2.jpg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  max-height: 80px;
+  height: 10vh;
+}
