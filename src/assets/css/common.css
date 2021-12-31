@@ -4,10 +4,13 @@
   src: url(./../fonts/quicksand-light-webfont.woff2);
   src: url(./../fonts/quicksand-regular-webfont.woff2);
 }
+html {
+  overflow-y: overlay;
+}
 body {
   background-color: #f6f7fb;
   overflow-x: hidden;
-  overflow-y: overlay;
+  overflow-y: overlay !important;
   font-family: quicksand;
   background-image: url(./../images/bg-04.jpg);
   background-repeat: repeat;
