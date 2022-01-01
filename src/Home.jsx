@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import "./assets/css/common.css";
+import { useEffect } from "react";
 import CardWhite from './components/Card';
 import CarouselBody from './components/Carousel';
 import Dharma from './components/Dharma';
@@ -12,6 +13,10 @@ import SectionScheme from './components/SectionScheme';
 import Slick from './components/Slick';
 import SubscribeNews from './components/SubscribeNews';
 function Home() {
+  useEffect(() => {
+    window.scroll(0, 0);
+
+  }, [])
   return (<>
     {/* <NavbarMain /> */}
     <CarouselBody />

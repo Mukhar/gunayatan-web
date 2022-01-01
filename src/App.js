@@ -3,12 +3,11 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/common.css"
 import RouteMain from './Route';
-import { useLayoutEffect } from 'react';
+import { useLayoutEffect, useEffect } from 'react';
 function App() {
   useLayoutEffect(() => {
     var nav = document.getElementById("navbar");
     window.onscroll = () => {
-      // console.log("hey scrolling:", window.scrollY);
       if (window.scrollY > 100 && !nav.classList.contains("shrink")) {
         nav.classList.add("shrink");
         console.log("shrink added ");

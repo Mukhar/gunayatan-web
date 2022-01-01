@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
@@ -12,19 +12,27 @@ import { Link, NavLink } from 'react-router-dom'
 // import logo from "./../assets/icons/11.png"
 // import "./../assets/css/button3dstyle.css"
 export default function NavbarMain() {
+    function handleNavbarExpand(params) {
+        console.log("navbar selected");
+        setexpanded(!expanded);
+    }
+    var [expanded, setexpanded] = useState(false);
+
     return (<>
         <div className="OrangeBar"></div>
-        <Navbar id="navbar" bg="light" expand="lg" sticky="top">
+        <Navbar expanded={expanded} id="navbar" bg="light" expand="lg" sticky="top" onSelect={handleNavbarExpand} >
             <Container fluid className='hoverwhite'>
                 <Navbar.Brand href="#"><img className='logo' src={logo} alt='logo' /></Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll" className="justify-content-end">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={handleNavbarExpand} />
+                <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" >
                     <Nav
                         className="me-2 my-2 my-lg-0"
                         style={{ maxHeight: '100' }}
                         navbarScroll
-                    >
-                        <Link to="/"><Nav.Item id="nav-home" active>Home</Nav.Item></Link>
+                        onSelect={handleNavbarExpand}>
+                        {/* onClick={() => setToggle(toggle => !toggle)} */}
+                        <Nav.Link to="/about" onClick={handleNavbarExpand}>Features</Nav.Link>
+                        <Link to="/" onClick={handleNavbarExpand}><Nav.Item id="nav-home" active>Home</Nav.Item></Link>
                         <NavLink to="/about"> <Nav.Item data-bs-toggle="collapse" data-bs-target=".navbar-collapse">14 Gunsthan</Nav.Item></NavLink>
                         <NavDropdown title="About Us" >
                             <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>

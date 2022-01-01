@@ -32,12 +32,22 @@
   font-size: 2.5vw;
   text-align: center;
 }
+@media (max-width: 586px) {
+  .subtitles {
+    font-size: 5.5vw !important;
+  }
+}
+@media (min-width: 586px) and (max-width: 768px) {
+  .subtitles {
+    font-size: 3.5vw;
+  }
+}
 @media (max-width: 768px) {
   .hide-mobile {
     display: none;
   }
   .subtitles {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
   }
 }
 
