@@ -10,14 +10,15 @@ export default function JoinUs() {
             <Container className='my-2'>
                 <div className='heading'>Join Gunayatan Parivar</div>
                 <div className='d-flex justify-content-center ' >
-                    <Button variant="warning" size="lg" className='mx-2'>
+                    <Button variant="warning" size="lg" className='mx-2 px-4'>
                         Join Now
                     </Button>
                     <div class="vr"></div>
                     <div className='d-flex justify-content-center joinus mx-2'>
                         <Facebook />
                         <Twitter />
-                        <Instagram /></div>
+                        <Instagram />
+                    </div>
                 </div>
 
             </Container>

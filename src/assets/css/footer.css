@@ -56,6 +56,16 @@ svg:hover {
   background-color: white;
   color: black;
 }
+.footer a {
+  color: #f5deb3 !important;
+  text-decoration: none;
+  font-size: inherit;
+  font-weight: 400 !important;
+  cursor: auto;
+}
+.footer col {
+  text-align: left;
+}
 @media (max-width: 768px) {
   .footer-logo {
     /* max-width: 30%; */

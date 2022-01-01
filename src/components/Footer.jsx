@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import Row from 'react-bootstrap/Row'
+import { Link } from 'react-router-dom'
 import "./../assets/css/footer.css"
 // import logo from "./../assets/icons/logo with tag line-red.png"
 import bottom from "./../assets/icons/gunayatan_bottom.png"
@@ -49,53 +50,54 @@ export default function Footer() {
                 <Row lg={5} xs={2} className='py-2'>
                     <Col lg={true}>
                         <Col >EXPLORE</Col>
-                        <Col >Welcome</Col>
-                        <Col >Gunayatan Gyan Mandir</Col>
-                        <Col >Chaubisi Jinalay</Col>
-                        <Col >Sahasrakoot Jinalay</Col>
-                        <Col >Gunayatan Theme Park</Col>
-                        <Col lg={true}>
-                            <Col>DOWNLOADS</Col>
-                            <Col>Visitor Guide</Col>
-                            <Col>Photo Gallery</Col>
+                        <Col > <Link to="/">Welcome</Link></Col>
+                        <Col > <Link to="/">Gunayatan Gyan Mandir</Link></Col>
+                        <Col > <Link to="/">Chaubisi Jinalay</Link></Col>
+                        <Col > <Link to="/">Sahasrakoot Jinalay</Link></Col >
+                        <Col > <Link to="/">Gunayatan Theme Park</Link></Col >
 
-                        </Col>
                     </Col>
                     <Col lg={true} >
-                        <Col >VISIT</Col>
-                        <Col >How to Reach</Col>
-                        <Col >Facilities</Col>
-                        <Col >Accomodation</Col>
-                        <Col >What to See</Col>
-                        <Col >Tickets</Col>
-                        <Col >Security</Col>
+                        <Col > VISIT</Col >
+                        <Col > <Link to="/">How to Reach</Link></Col >
+                        <Col > <Link to="/">Facilities</Link></Col >
+                        <Col > <Link to="/">Accomodation</Link></Col >
+                        <Col > <Link to="/">What to See</Link></Col >
+                        <Col > <Link to="/">Tickets</Link></Col >
+                        <Col > <Link to="/">Security</Link></Col >
                     </Col>
                     <Col lg={true}>
                         <Col >WHATS NEW</Col>
-                        <Col >Progress </Col>
-                        <Col >Views and Comments</Col>
+                        <Col > <Link to="/">Progress </Link></Col >
+                        <Col > <Link to="/">Views and Comments</Link></Col >
 
-                        <Col >New Members</Col>
-                        <Col >Updates</Col>
+                        <Col > <Link to="/">New Members</Link></Col >
+                        <Col > <Link to="/">Updates</Link></Col >
 
 
                     </Col>
                     <Col lg={true}>
                         <Col >ABOUT US</Col>
-                        <Col >Blessings and Inspirer</Col>
-                        <Col >Organisation</Col>
-                        <Col >Managing Comittee</Col>
-                        <Col >Gunayatan Journey </Col>
-                        <Col >Gunayatan Parivar</Col>
-                        <Col >Members Login</Col>
-                        <Col >Contact Us</Col>
+                        <Col > <Link to="/">Blessings and Inspirer</Link></Col >
+                        <Col > <Link to="/">Organisation</Link></Col >
+                        <Col ><Link to="/prabandh">Managing Comittee</Link></Col>
+                        <Col > <Link to="/">Gunayatan Journey </Link></Col >
+                        <Col > <Link to="/">Gunayatan Parivar</Link></Col >
+                        <Col > <Link to="/">Members Login</Link></Col >
+                        <Col > <Link to="/">Contact Us</Link></Col >
                     </Col>
                     <Col lg={true}>
                         <Col >LINKS</Col>
-                        <Col >Muni Pramansagar Ji</Col>
-                        <Col >Jain Pathshala</Col>
-                        <Col >Bhavna Yog</Col>
-                        <Col >Sevayatan</Col>
+                        <Col ><a href="www.munipramansagar.net">Muni Pramansagar Ji</a></Col>
+                        <Col ><a href="#">Jain Pathshala</a></Col>
+                        <Col ><a href="#">Bhavna Yog</a></Col>
+                        <Col ><a href="#">Sevayatan</a></Col>
+                        <Col lg={true}>
+                            <Col>DOWNLOADS</Col>
+                            <Col> <Link to="/">Visitor Guide</Link></Col>
+                            <Col> <Link to="/">Photo Gallery</Link></Col>
+
+                        </Col>
                     </Col>
                 </Row>
                 <Row className="justify-content-center">  © www.gunaytan.com</Row>
