@@ -11,7 +11,13 @@
 .dharma_carousel {
   min-height: 300px;
 }
-.carousel-indicators button {
+.dharma_carousel .carousel-indicators button {
   width: 10px !important;
   height: 10px !important;
+  background-color: rgb(255, 174, 0) !important;
+}
+
+.dharma_carousel img {
+  border: 4px solid white;
+  border-radius: 3px;
 }
