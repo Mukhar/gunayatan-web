@@ -15,9 +15,9 @@ export default function Gunasthan() {
                 <img src={img2} alt='demo' />
             </section>
 
-            <section className='px-0'>
+            {/* <section className='px-0'>
                 <img src={img3} alt='demo' />
-            </section>
+            </section> */}
         </Container>
     )
 }

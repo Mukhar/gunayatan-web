@@ -31,7 +31,7 @@ export default function NavbarMain() {
                         navbarScroll
                         onSelect={handleNavbarExpand}>
                         {/* onClick={() => setToggle(toggle => !toggle)} */}
-                        <Nav.Link to="/about" onClick={handleNavbarExpand}>Features</Nav.Link>
+                        {/* <Nav.Link to="/about" onClick={handleNavbarExpand}>Features</Nav.Link> */}
                         <Link to="/" onClick={handleNavbarExpand}><Nav.Item id="nav-home" active>Home</Nav.Item></Link>
                         <NavLink to="/about"> <Nav.Item data-bs-toggle="collapse" data-bs-target=".navbar-collapse">14 Gunsthan</Nav.Item></NavLink>
                         <NavDropdown title="About Us" >

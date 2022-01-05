@@ -3,7 +3,7 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/common.css"
 import RouteMain from './Route';
-import { useLayoutEffect, useEffect } from 'react';
+import { useLayoutEffect } from 'react';
 function App() {
   useLayoutEffect(() => {
     var nav = document.getElementById("navbar");
