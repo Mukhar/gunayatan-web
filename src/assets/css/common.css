@@ -1,8 +1,26 @@
 @font-face {
-  font-family: quicksand;
-  src: url(./../fonts/quicksand-bold-webfont.woff2);
-  src: url(./../fonts/quicksand-light-webfont.woff2);
-  src: url(./../fonts/quicksand-regular-webfont.woff2);
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./../fonts/quicksand-regular-webfont.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: bold;
+  src: url(./../fonts/quicksand-bold-webfont.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: lighter;
+  src: url(./../fonts/quicksand-light-webfont.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  src: url(./../fonts/quicksand-medium-webfont.woff2) format("woff2");
 }
 html {
   overflow-y: overlay;
