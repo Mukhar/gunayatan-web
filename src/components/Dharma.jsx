@@ -9,13 +9,18 @@ import img3 from "./../assets/images/quote/quote3.jpg"
 // import bg_section2 from './../assets/images/bg_section2.jpg'
 
 import "./../assets/css/dharma.css";
+import Updown from './Utils/Updown';
 export default function Dharma() {
     const about = useRef("about");
 
     return (
-        <div id='dharma' className='container-fluid ' ref={about}>
+
+        <div id='about' className='container-fluid ' ref={about}>
+
             <Container className='mt-3' >
+
                 <Row className='p-2'>
+                    {/* <Updown up='joinus' /> */}
                     <Col>
                         {/* <div>Heading</div> */}
                     </Col>
@@ -49,6 +54,7 @@ export default function Dharma() {
                         </Carousel>
                     </Col>
                 </Row>
+
             </Container>
 
 

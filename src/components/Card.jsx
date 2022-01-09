@@ -13,9 +13,8 @@ import "./cardWhite.css"
 export default function CardWhite() {
 
     return (
-        <div className='cardwhite'>
+        <div id="muniraj" className='cardwhite'>
             <CardGroup>
-
                 <Card className='border-0'>
                     <Card.Body>
                         <div className='d-flex justify-content-center'>

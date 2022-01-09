@@ -5,10 +5,9 @@ import Facebook from './social/Facebook'
 import Twitter from './social/Twitter'
 import Instagram from './social/Instagram'
 export default function JoinUs() {
-    const joinus = useRef("joinus");
     return (
-        <div>
-            <Container className='my-2' ref={joinus}>
+        <div id='joinus'>
+            <Container className='my-2' >
                 <div className='heading'>Join Gunayatan Parivar</div>
                 <div className='d-flex justify-content-center ' >
                     <Button variant="warning" size="lg" className='mx-2 px-4'>
