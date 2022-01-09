@@ -26,3 +26,4 @@ src/assets/hires/
 src/assets/images-fb/
 src/assets/icons/ignored/
 src/components/Schemes/*.zip
+*.webp

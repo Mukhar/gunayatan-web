@@ -19,24 +19,17 @@
 .TopCarousel .carousel-inner .active > img {
   -webkit-animation: zoom 15s;
   animation: zoom 15s;
-  max-height: 800px;
+  /* max-height: 800px; */
 }
 .TopCarousel .carousel-item {
   max-height: 800px;
+  background: linear-gradient(150deg, black, transparent);
 }
 
-/* .carousel-inner .active > img {
-  transform: scale(1.2) !important;
-  transition-duration: 20s !important;
-  -webkit-transition-duration: 20s !important;
-  -webkit-transform: scale(1.2) !important;
-  -moz-transform: scale(1.2) !important;
-  -moz-transform: scale(1.2) !important;
-} */
 .TopCarousel .carousel-caption {
   position: absolute !important;
-  left: 10%;
-  bottom: 30%;
+  left: 5%;
+  bottom: 40%;
   text-align: left;
   bottom: 1.2rem;
   font-size: 46px;
