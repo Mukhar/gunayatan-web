@@ -17,8 +17,8 @@
 }
 /* .carousel-inner .item img { */
 .TopCarousel .carousel-inner .active > img {
-  -webkit-animation: zoom 20s;
-  animation: zoom 20s;
+  -webkit-animation: zoom 15s;
+  animation: zoom 15s;
   max-height: 800px;
 }
 .TopCarousel .carousel-item {

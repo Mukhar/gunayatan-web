@@ -10,6 +10,7 @@
 }
 .dharma_carousel {
   min-height: 300px;
+  text-align-last: right;
 }
 .dharma_carousel .carousel-indicators button {
   width: 10px !important;

@@ -12,7 +12,7 @@ import "./../assets/css/dharma.css";
 export default function Dharma() {
     return (
         <div id='dharma' className='container-fluid '>
-            <Container className='mt-3'>
+            <Container className='mt-3' >
                 <Row className='p-2'>
                     <Col>
                         {/* <div>Heading</div> */}
@@ -21,24 +21,24 @@ export default function Dharma() {
                         <h3>Dharma</h3>
                         <Carousel variant='dark' prevIcon={false} nextIcon={false} className='dharma_carousel'>
                             <Carousel.Item interval={5000}>
-                                <img src={img1}></img>
-                                <p>My name is mukhar Jain</p>
+                                <img src={img1} alt='quote1'></img>
+                                {/* <p>My n ame is mukhar Jain</p> */}
                                 {/* <Carousel.Caption>
                                     <h3>First slide label</h3>
                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                 </Carousel.Caption> */}
                             </Carousel.Item>
                             <Carousel.Item interval={5000}>
-                                <img src={img2}></img>
-                                <p>I am a devloper</p>
+                                <img src={img2} alt='logo'></img>
+                                {/* <p>I am a devloper</p> */}
                                 {/* <Carousel.Caption>
                                     <h3>Second slide label</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 </Carousel.Caption> */}
                             </Carousel.Item>
                             <Carousel.Item interval={5000} >
-                                <img src={img3}></img>
-                                <p>This is being developend by me </p>
+                                <img src={img3} alt='quote3'></img>
+                                {/* <p>This is being developend by me </p> */}
                                 {/* <Carousel.Caption>
                                     <h3>Third slide label</h3>
                                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>

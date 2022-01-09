@@ -89,9 +89,9 @@ export default function Footer() {
                     <Col lg={true}>
                         <Col >LINKS</Col>
                         <Col ><a href="www.munipramansagar.net">Muni Pramansagar Ji</a></Col>
-                        <Col ><a href="#">Jain Pathshala</a></Col>
-                        <Col ><a href="#">Bhavna Yog</a></Col>
-                        <Col ><a href="#">Sevayatan</a></Col>
+                        <Col ><a href="google.com">Jain Pathshala</a></Col>
+                        <Col ><a href="www.google.co.in/search?&q=bhavna%20yog">Bhavna Yog</a></Col>
+                        <Col ><a href="">Sevayatan</a></Col>
                         <Col lg={true}>
                             <Col>DOWNLOADS</Col>
                             <Col> <Link to="/">Visitor Guide</Link></Col>

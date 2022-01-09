@@ -14,9 +14,10 @@
 .card-container {
   /* width: 20em; */
   flex-wrap: wrap;
+  color: #350392 !important;
 }
 .card-comp {
-  box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
+  box-shadow: 0 0 5px 0 rgba(25, 0, 39, 0.5);
   margin-top: 10px;
 }
 .pattern-bg {

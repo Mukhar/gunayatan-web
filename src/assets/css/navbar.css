@@ -44,11 +44,18 @@
   background-color: #ffffffa2;
 }
 .dropdown-menu {
-  background: inherit;
-  font: 1.25rem;
+  font-size: inherit;
+  background: transparent;
+  color: black !important;
+  padding: 3px;
 }
 .dropdown-menu:hover {
-  background: transparent !important;
+}
+.dropdown-item {
+}
+.dropdown-item:hover {
+  color: black !important;
+  background-color: #ffffffa2;
 }
 .OrangeBar {
   background: orangered;

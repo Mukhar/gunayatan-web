@@ -32,12 +32,13 @@ export default function SectionComp(props) {
             <Container >
                 <div className='mt-5'></div>
                 <div className='heading'>  {props.heading}</div>
-                <div className='subheading'>  {props.heading}</div>
+                <div className='subheading'>  {props.subHeading}</div>
 
                 <div className='d-flex justify-content-center card-container'>
 
                     {cardarray.map((obj, i) =>
-                        <motion.div whileHover={{ scale: 1.1 }}
+                        <motion.div
+                            whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}>
                             <Card style={{
                                 width: '18rem',
