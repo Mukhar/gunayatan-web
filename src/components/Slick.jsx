@@ -22,7 +22,7 @@ export default function Slick() {
     const [cardarray, setcardarray] = useState([{ img: img1 }, { img: img2 }, { img: img3 }]);
 
     return (
-        <Container>
+        <Container id="slick">
             <Slider {...settings}>
                 {cardarray.map((obj, i) =>
                     <Card style={{

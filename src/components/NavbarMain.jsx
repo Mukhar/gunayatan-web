@@ -19,7 +19,7 @@ export default function NavbarMain() {
     var [expanded, setexpanded] = useState(false);
 
     return (<>
-        <div className="OrangeBar"></div>
+        <div id='navbar' className="OrangeBar"></div>
         <Navbar expanded={expanded} id="navbar" bg="light" expand="lg" sticky="top" onSelect={handleNavbarExpand} >
             <Container fluid className='hoverwhite'>
                 <Navbar.Brand href="#"><img className='logo' src={logo} alt='logo' /></Navbar.Brand>

@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 export default function FullscreenTextImage() {
     return (
-        <Container fluid>
+        <Container fluid id="themepark">
             <Row >
                 <Col className='px-1 bg-red' md={5}>
                     <div className='d-flex justify-content-center py-3 fti-leftblock'>

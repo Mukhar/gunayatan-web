@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import Col from 'react-bootstrap/esm/Col';
 import Container from 'react-bootstrap/esm/Container';
@@ -10,15 +10,17 @@ import img3 from "./../assets/images/quote/quote3.jpg"
 
 import "./../assets/css/dharma.css";
 export default function Dharma() {
+    const about = useRef("about");
+
     return (
-        <div id='dharma' className='container-fluid '>
+        <div id='dharma' className='container-fluid ' ref={about}>
             <Container className='mt-3' >
                 <Row className='p-2'>
                     <Col>
                         {/* <div>Heading</div> */}
                     </Col>
                     <Col>
-                        <h3>Dharma</h3>
+                        <h3>About Gunayatan</h3>
                         <Carousel variant='dark' prevIcon={false} nextIcon={false} className='dharma_carousel'>
                             <Carousel.Item interval={5000}>
                                 <img src={img1} alt='quote1'></img>

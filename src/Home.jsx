@@ -23,12 +23,6 @@ function Home() {
     <CardWhite />
     <Dharma />
     <Divider />
-    {/* <img src={divider} style={{
-      width: "20%",
-      textAlign: 'center',
-      margin: "10px auto 10px auto",
-      display: 'block'
-    }} /> */}
     <FullscreenTextImage />
     <SectionComp heading="Gunayatan Gyan Mandir" />
     <Slick />
@@ -37,22 +31,7 @@ function Home() {
     <SubscribeNews />
     {/* <Footer /> */}
   </>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+
   );
 }
 

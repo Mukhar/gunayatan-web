@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Form from 'react-bootstrap/Form'
 import Container from 'react-bootstrap/esm/Container'
 export default function FeedbackForm() {
     return (
@@ -19,7 +18,7 @@ export default function FeedbackForm() {
                     <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                     <label className="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} type="submit" className="btn btn-primary">Submit</motion.button>
             </form>
         </Container>
     )

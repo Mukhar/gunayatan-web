@@ -18,8 +18,8 @@ import Twitter from './social/Twitter'
 
 
 export default function Footer() {
-    return (<>
-        <Row style={{ justifyContent: "center" }} className='mountainbg'>
+    return (<  >
+        <Row id='footer' style={{ justifyContent: "center" }} className='mountainbg'>
             <img src={bottom} alt='demo' ></img>
         </Row>
         <div className='sidebar'>
@@ -91,7 +91,7 @@ export default function Footer() {
                         <Col ><a href="www.munipramansagar.net">Muni Pramansagar Ji</a></Col>
                         <Col ><a href="google.com">Jain Pathshala</a></Col>
                         <Col ><a href="www.google.co.in/search?&q=bhavna%20yog">Bhavna Yog</a></Col>
-                        <Col ><a href="">Sevayatan</a></Col>
+                        <Col ><a href="www.google.com">Sevayatan</a></Col>
                         <Col lg={true}>
                             <Col>DOWNLOADS</Col>
                             <Col> <Link to="/">Visitor Guide</Link></Col>

@@ -36,7 +36,7 @@ export default function SectionScheme(props) {
         }
     ]);
     return (
-        <Container>
+        <Container id='scheme-extended' >
             <div className='mt-5'></div>
             <div className='heading'>  {props.heading}</div>
             <div className='subheading'>  {props.heading}</div>

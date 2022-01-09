@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Form from 'react-bootstrap/Form'
 import Container from 'react-bootstrap/esm/Container'
 export default function Queries() {
     return (

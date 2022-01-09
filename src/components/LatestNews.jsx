@@ -12,7 +12,7 @@ export default function LatestNews(props) {
     // eslint-disable-next-line
     const [cardarray, setcardarray] = useState([{ img: img1 }, { img: img2 }, { img: img3 }]);
     return (
-        <Container>
+        <Container id='news'>
             <div className='mt-5'></div>
             <div className='heading'>  {props.heading}</div>
             <div className='subheading'>  {props.heading}</div>

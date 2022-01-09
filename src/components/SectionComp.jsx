@@ -28,7 +28,7 @@ export default function SectionComp(props) {
         },
     ]);
     return (
-        <Container className='pattern-bg' fluid>
+        <Container id='schemes' className='pattern-bg' fluid>
             <Container >
                 <div className='mt-5'></div>
                 <div className='heading'>  {props.heading}</div>

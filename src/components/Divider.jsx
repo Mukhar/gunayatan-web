@@ -3,7 +3,7 @@ import "./../assets/css/divider.css"
 export default function Divider() {
 
     return (
-        <div className='divider'>
+        <div id='divider' className='divider'>
 
         </div>
     )
