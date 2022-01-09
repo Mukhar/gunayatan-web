@@ -6,6 +6,7 @@ import NavbarMain from './components/NavbarMain';
 import Home from './Home';
 import Schemes from "./components/Schemes/Schemes"
 import Prabandh from "./components/Prabandh/Prabandh"
+import FeedbackForm from './components/Forms/FeedbackForm';
 export default function RouteMain() {
     return (
         <Router>
@@ -16,10 +17,8 @@ export default function RouteMain() {
                 <Route path="/schemes" element={<Schemes />} />
                 <Route path="/about" element={<Gunasthan />} />
                 <Route path="/donate" element={<Gunasthan />} />
-                <Route path=":postSlug" element={<Gunasthan />} />
-
+                <Route path="/feedback" element={<FeedbackForm />} />
                 <Route path="/prabandh" element={<Prabandh />} />
-
             </Routes>
             <Footer />
         </Router>

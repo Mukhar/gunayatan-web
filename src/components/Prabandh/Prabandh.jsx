@@ -1,16 +1,29 @@
 import React, { useEffect } from 'react'
 import Container from 'react-bootstrap/esm/Container'
+import { motion } from 'framer-motion'
 import "./Prabandh.css"
+const buttonMotion = {
+    hover: {
+        scale: 1.5,
+        originX: 0,
+        textShadow: "0px 0px 8px #d13900 ",
+        BoxShadow: "0px 0px 8px #ff01Ce ",
+
+    }
+}
 export default function Prabandh() {
     useEffect(() => {
         window.scrollTo(0, 0);
 
     }, [])
     return (
-        <Container>
+        <Container className='prabandh'>
             <div id="content">
                 <div ClassName="mps-content">
-                    <h1>गुणायतन प्रबन्धकारिणी</h1>
+                    <motion.h1
+                        variants={buttonMotion}
+                        whileHover="hover"
+                    >गुणायतन प्रबन्धकारिणी</motion.h1>
 
                     <hr />
 
