@@ -19,15 +19,13 @@ import Twitter from './social/Twitter'
 
 export default function Footer() {
     return (<  >
-        <Row id='footer' style={{ justifyContent: "center" }} className='mountainbg'>
-            <img src={bottom} alt='demo' ></img>
-        </Row>
+
         <div className='sidebar'>
             <Facebook />
             <Twitter />
             <Instagram /> </div>
 
-        <Container fluid className='footer py-2' >
+        <Container id='footer' fluid className='footer py-2' >
             <Container>
                 <Row className='py-2 row justify-content-between  border-bottom border-3 border-color-gold'>
                     <Col xs={4}  ><img className="footer-logo" src={logo} alt='Logo' /></Col>
@@ -49,7 +47,7 @@ export default function Footer() {
                 </Row>
                 <Row lg={5} xs={2} className='py-2'>
                     <Col lg={true}>
-                        <Col >EXPLORE</Col>
+                        <Col ><Link to="explore">EXPLORE</Link></Col>
                         <Col > <Link to="/">Welcome</Link></Col>
                         <Col > <Link to="/">Gunayatan Gyan Mandir</Link></Col>
                         <Col > <Link to="/">Chaubisi Jinalay</Link></Col>
@@ -58,8 +56,8 @@ export default function Footer() {
 
                     </Col>
                     <Col lg={true} >
-                        <Col > VISIT</Col >
-                        <Col > <Link to="/">How to Reach</Link></Col >
+                        <Col ><Link to="visit"> VISIT</Link></Col >
+                        <Col > <Link to="visit#howtoreach">How to Reach</Link></Col >
                         <Col > <Link to="/">Facilities</Link></Col >
                         <Col > <Link to="/">Accomodation</Link></Col >
                         <Col > <Link to="/">What to See</Link></Col >

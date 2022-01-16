@@ -1,0 +1,60 @@
+.GunayatanIntro {
+  height: 100vh;
+}
+.radial-bg-black {
+  background: radial-gradients(at top, circle, #212121, black);
+  /* background: -webkit-radial-gradient(top, red, yellow, green); */
+  background: -webkit-radial-gradient(bottom, #212121, black);
+}
+.gunImg-half {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+
+  height: 90vh;
+}
+.gunImg-half img {
+}
+.gun-heading {
+  color: white;
+  display: block;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 10%;
+  font-size: 4vw;
+  font-weight: 600;
+}
+.gun-btn-row {
+  position: relative;
+  margin-top: -150px;
+  padding-left: 10px;
+}
+.gun-btn-row a {
+  display: block;
+}
+.gun-button {
+  width: auto;
+  display: inline-block;
+  background-color: #bbed2f;
+  color: black;
+}
+.gun-button svg {
+  vertical-align: baseline;
+}
+.br-1 {
+  border-radius: 5vw 0px 0px 5vw;
+  margin-left: 10%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: 27%;
+}
+.br-2 {
+  border-left: solid 0.5vw black;
+  width: 3.5vw;
+  border-radius: 0px 5vw 5vw 0px;
+}
+@media (min-width: 1260px) {
+  .gun-button {
+    font-size: 3rem;
+  }
+}

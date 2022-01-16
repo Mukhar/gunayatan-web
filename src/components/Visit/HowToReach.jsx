@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/esm/Row'
 export default function HowToReach() {
     const state = ['Girdih', 'Hazaribagh', 'Patna', 'Bokaro', 'Kolkata'];
     return (
-        <Container >
-            <Row>
+        <Container id="howtoreach" >
+            <Row style={{ color: "black" }}>
                 <Col><h2>How To Reach Gunayatan</h2>
                     <div><b>Address:</b> गुणायतन,<br></br> कुन्दकुन्द मार्ग, मधुबन, झारखंड 825329</div>
                     <hr></hr>

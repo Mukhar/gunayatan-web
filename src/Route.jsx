@@ -10,6 +10,9 @@ import FeedbackForm from './components/Forms/FeedbackForm';
 import Queries from './components/Forms/Queries';
 import HowToReach from './components/Visit/HowToReach';
 import ScrollToTop from './components/Utils';
+import Social from './components/Layouts/Social';
+import VisitLayout from './components/Layouts/VisitLayout';
+import ExploreLayout from './components/Layouts/ExploreLayout';
 export default function RouteMain() {
     return (
         <Router>
@@ -24,7 +27,7 @@ export default function RouteMain() {
                 <Route path="/feedback" element={<FeedbackForm />} />
                 <Route path="/prabandh" element={<Prabandh />} />
                 <Route path="/queries" element={<Queries />} />
-                <Route path="visit" >
+                <Route path="visit" element={<VisitLayout />}>
                     <Route path="howToReach" element={<HowToReach />}></Route>
                     <Route path="Accomodation" />
                     <Route path="facilities" />
@@ -32,6 +35,8 @@ export default function RouteMain() {
                     <Route path="Tickets" />
                     <Route path="facilities" />
                 </Route>
+                <Route path="Explore" element={<ExploreLayout />} />
+                <Route path="Social" element={<Social />} />
                 <Route path="/feedback" element={<FeedbackForm />} />
 
                 <Route
@@ -45,6 +50,6 @@ export default function RouteMain() {
             </Routes>
             <ScrollToTop />
             <Footer />
-        </Router>
+        </Router >
     )
 }

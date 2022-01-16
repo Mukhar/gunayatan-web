@@ -1,16 +1,6 @@
-.col-lg :first-child {
-  font-weight: bold;
-  color: #ffaa60;
-}
-.col-lg :first-child:hover {
-  color: #ffaa60;
-}
 .footer {
   background-color: #404040;
   color: wheat;
-}
-.col:hover {
-  color: white;
 }
 .footer-logo {
   /* max-width: 30%; */
@@ -55,11 +45,18 @@ svg:hover {
   color: black;
 }
 .footer a {
-  color: #f5deb3 !important;
+  color: #f5deb3;
   text-decoration: none;
   font-size: inherit;
   font-weight: 400 !important;
-  cursor: auto;
+  cursor: pointer;
+}
+.col-lg :first-child a {
+  font-weight: bold !important;
+  color: #ffaa60 !important ;
+}
+.col-lg :first-child:hover {
+  color: #ffaa60 !important;
 }
 .footer col {
   text-align: left;
