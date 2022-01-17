@@ -45,12 +45,12 @@ export default function SectionScheme(props) {
 
                 {cardarray.map((obj, i) =>
                     <motion.div whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}>
+                        whileTap={{ scale: 0.95 }}>
                         <Card style={{
                             width: '16rem',
                             borderRadius: "10px 10px 5px 5px",
                             marginLeft: "15px"
-                        }} className="text-center">
+                        }} className="text-center h-100">
                             <Card.Img variant="top" src={obj.img} className={obj.class} />
                             <Card.Body text>
                                 <Card.Title>{obj.cardTitle}</Card.Title>
