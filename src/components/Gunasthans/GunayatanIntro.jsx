@@ -1,15 +1,14 @@
 import React from 'react'
 import gunpic from "./../../assets/icons/Gunayatan_Main_Mandir-half.png"
-import Row from 'react-bootstrap/Row'
 export default function GunayatanIntro() {
     return (
         <div id='Gunayatan_Intro' className='GunayatanIntro radial-bg-black'>
             <div className='gun-heading'>What is Gunayatan</div>
 
             <div className='gunImg-half'>
-                <img src={gunpic}></img>
+                <img src={gunpic} alt="gunpic"></img>
             </div>
-            <Row className='gun-btn-row'>
+            <div className='gun-btn-row'>
                 <a href='#14gunasthan'>
                     <div className='gun-button br-1'> Explore More</div>
 
@@ -18,7 +17,7 @@ export default function GunayatanIntro() {
                     </svg>
                     </div>
                 </a>
-            </Row>
+            </div>
 
         </div>
     )
