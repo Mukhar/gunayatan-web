@@ -29,11 +29,11 @@ export default function CarouselBody() {
         <div id='carousel-top'>
             <Carousel fade className="TopCarousel">
                 {img1.map((element, i) => (
-                    <Carousel.Item interval={20000} >
+                    <Carousel.Item interval={20000} key={`Carousel` + i} >
                         <picture>
                             <img
                                 className="d-block w-100"
-                                srcset={element.img}
+                                src={element.img}
                                 alt={element.label}
                             />
 

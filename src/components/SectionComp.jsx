@@ -37,21 +37,22 @@ export default function SectionComp(props) {
                 <div className='d-flex justify-content-center card-container'>
 
                     {cardarray.map((obj, i) =>
-                        <motion.div
+                        <motion.div key={`Compcard` + i}
                             whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.9 }}>
+                            whileTap={{ scale: 0.9 }}
+                        >
                             <Card style={{
                                 width: '18rem',
                                 borderRadius: "10px 10px 5px 5px",
                                 marginLeft: "15px"
                             }} className="text-center card-comp">
                                 <Card.Img variant="top" src={obj.img} className={obj.class} />
-                                <Card.Body text>
+                                <Card.Body text="true">
                                     <Card.Title>{obj.cardTitle}</Card.Title>
                                     <Card.Text>
                                         {obj.cardText}
                                     </Card.Text>
-                                    <Button variant="primary ">Explore More</Button>
+                                    <Button variant="primary " name="ButtonExplore" >Explore More</Button>
                                 </Card.Body>
                             </Card>
                         </motion.div>

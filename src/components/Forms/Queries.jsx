@@ -14,15 +14,15 @@ export default function Queries() {
                 </div>
 
 
-                <div class="row g-2">
-                    <div class="col-md">
+                <div className="row g-2">
+                    <div className="col-md">
                         <div className="mb-3">
                             <label for="exampleInputEmail1" className="form-label">Email address</label>
                             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
                             <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                         </div>
                     </div>
-                    <div class="col-md">
+                    <div className="col-md">
                         <div className="mb-3">
                             <label for="phoneNumber" className="form-label">Mobile Number</label>
                             <input type="phone" className="form-control" id="PhoneNumber" aria-describedby="phoneHelp" required />
@@ -33,7 +33,7 @@ export default function Queries() {
                 <motion.button
                     whileHover={{ scale: [1.1, 1, 1.1, 1] }}
                     whileTap={{ scale: 0.9 }}
-                    class="btn btn-success" type="button" id="button-addon2">Submit</motion.button>
+                    className="btn btn-success" type="button" id="button-addon2">Submit</motion.button>
             </form>
         </Container>
     )

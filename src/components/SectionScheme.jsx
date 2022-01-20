@@ -45,7 +45,7 @@ export default function SectionScheme(props) {
 
                 {cardarray.map((obj, i) =>
                     <motion.div whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.95 }}>
+                        whileTap={{ scale: 0.95 }} key={`card` + i}>
                         <Card style={{
                             width: '16rem',
                             borderRadius: "10px 10px 5px 5px",

@@ -13,7 +13,7 @@ function App() {
         console.log("shrink added ");
       } else if (window.scrollY === 0 && nav.classList.contains("shrink")) {
         nav.classList.remove("shrink");
-        console.log("Scroll removed ");
+        console.log("Shrink removed ");
       }
     }
   }, []);
