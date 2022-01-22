@@ -1,9 +1,9 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Button from 'react-bootstrap/esm/Button'
 import Container from 'react-bootstrap/esm/Container'
 import Facebook from './social/Facebook'
-import Twitter from './social/Twitter'
 import Instagram from './social/Instagram'
+import Twitter from './social/Twitter'
 export default function JoinUs() {
     return (
         <div id='joinus'>
@@ -13,7 +13,7 @@ export default function JoinUs() {
                     <Button variant="warning" size="lg" className='mx-2 px-4'>
                         Join Now
                     </Button>
-                    <div class="vr"></div>
+                    <div className="vr"></div>
                     <div className='d-flex justify-content-center joinus mx-2'>
                         <Facebook />
                         <Twitter />
