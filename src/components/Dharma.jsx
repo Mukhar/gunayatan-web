@@ -9,7 +9,6 @@ import img3 from "./../assets/images/quote/quote3.jpg"
 // import bg_section2 from './../assets/images/bg_section2.jpg'
 
 import "./../assets/css/dharma.css";
-import Updown from './Utils/Updown';
 export default function Dharma() {
     const about = useRef("about");
 

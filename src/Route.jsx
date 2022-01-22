@@ -14,6 +14,7 @@ import Social from './components/Layouts/Social';
 import VisitLayout from './components/Layouts/VisitLayout';
 import ExploreLayout from './components/Layouts/ExploreLayout';
 import DonationLayout from './components/Layouts/DonationLayout';
+import AboutUsLayout from './components/Layouts/AboutUsLayout';
 export default function RouteMain() {
     return (
         <Router>
@@ -37,7 +38,9 @@ export default function RouteMain() {
                     <Route path="facilities" />
                 </Route>
                 <Route path="donation" element={<DonationLayout />} />
-                <Route path="Explore" element={<ExploreLayout />} />
+                <Route path="explore" element={<ExploreLayout />} />
+                <Route path="aboutUs" element={<AboutUsLayout />} />
+
                 <Route path="Social" element={<Social />} />
                 <Route path="/feedback" element={<FeedbackForm />} />
 

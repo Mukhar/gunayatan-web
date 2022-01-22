@@ -1,0 +1,33 @@
+.subheading-left {
+  font-size: xx-large;
+}
+.customButton {
+  color: white;
+  border-radius: 5px;
+  font-family: quicksand, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.72em;
+  text-decoration: none !important;
+  text-transform: none;
+  padding: 10px;
+  display: inline-block;
+  background: orange;
+  box-shadow: 0 0 4.222em rgb(253 149 81 / 24%);
+  -webkit-transition: color 0.3s ease, border-color 0.3s ease,
+    background-position 0.3s ease, background-color 0s linear 0.3s;
+  transition: color 0.3s ease, border-color 0.3s ease,
+    background-position 0.3s ease, background-color 0s linear 0.3s;
+}
+
+.customButton:hover {
+  background: linear-gradient(
+      to right,
+      #69cff3 0%,
+      #52bee5 50%,
+      #feb970 50%,
+      #fd9551 100%
+    )
+    no-repeat scroll right bottom/210% 100% #ffa64d !important;
+}
