@@ -1,5 +1,27 @@
 .subheading-left {
   font-size: xx-large;
+  font-weight: 500;
+}
+.info-paragraph {
+  line-height: 1.9;
+  margin-bottom: 1em;
+}
+.image-overlay {
+  position: relative;
+}
+.image-overlay .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgb(9, 9, 9);
+  background: linear-gradient(
+    0deg,
+    rgba(4, 4, 4, 0.6) 0%,
+    rgba(255, 255, 255, 0) 25%
+  );
 }
 .customButton {
   color: white;
@@ -30,4 +52,18 @@
       #fd9551 100%
     )
     no-repeat scroll right bottom/210% 100% #ffa64d !important;
+}
+
+/* ProfileCard  */
+.ProfileName {
+  font-size: large;
+  font-weight: 500;
+}
+.ProfileName:hover {
+  color: orangered;
+  transition: color 0.3s ease, background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+.ProfileDesignation {
+  font-size: medium;
 }

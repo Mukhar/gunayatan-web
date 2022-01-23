@@ -6,5 +6,5 @@ export default function ButtonCustom(props) {
         <Link to={props.link}>
             {props.content}
         </Link>
-    </div>;
+    </div>
 }

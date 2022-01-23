@@ -13,6 +13,7 @@ import logo from "./../assets/icons/logo with tag line-golden.png"
 import Facebook from './social/Facebook'
 import Instagram from './social/Instagram'
 import Twitter from './social/Twitter'
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -75,12 +76,12 @@ export default function Footer() {
 
                     </Col>
                     <Col lg={true}>
-                        <Col >ABOUT US</Col>
-                        <Col > <Link to="/">Blessings and Inspirer</Link></Col >
-                        <Col > <Link to="/">Organisation</Link></Col >
-                        <Col ><Link to="/prabandh">Managing Comittee</Link></Col>
+                        <Col ><Link to="aboutUs"> ABOUT US</Link></Col>
+                        <Col > <Link to="aboutUs#blessings">Blessings and Inspirer</Link></Col >
+                        <Col > <HashLink to="/aboutUs#organisation">Organisation</HashLink></Col >
+                        <Col > <Link to="/prabandh">Managing Comittee</Link></Col>
                         <Col > <Link to="/">Gunayatan Journey </Link></Col >
-                        <Col > <Link to="/">Gunayatan Parivar</Link></Col >
+                        <Col > <HashLink to="/aboutUs#gunayatanParivar"> Gunayatan Parivar</HashLink></Col >
                         <Col > <Link to="/">Members Login</Link></Col >
                         <Col > <Link to="/">Contact Us</Link></Col >
                     </Col>
