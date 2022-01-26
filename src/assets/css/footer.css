@@ -31,6 +31,9 @@
 .instagram {
   color: #ef426f;
 }
+.email {
+  color: rgb(39, 97, 173);
+}
 svg:hover {
   filter: brightness(150%);
   -webkit-transition: 0.5s;

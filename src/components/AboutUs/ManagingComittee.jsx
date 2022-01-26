@@ -15,9 +15,18 @@ export default function ManagingComittee() {
         image: pr,
         name: "Sunil Jain",
         designation: "CFO",
+    }, {
+        image: pr,
+        name: "Sudheer Jain",
+        designation: "CFO",
+    },
+    {
+        image: pr,
+        name: "P. Jain",
+        designation: "CFO",
     }]
 
-    return <Container id="organisation" className='d-flex justify-content-center'>
+    return <Container id="organisation" className='d-flex justify-content-center flex-wrap'>
         {
             DonationSchemes.map((obj, keyy) =>
                 (<ProfileCard profile={obj} />)
