@@ -15,6 +15,8 @@ import VisitLayout from './components/Layouts/VisitLayout';
 import ExploreLayout from './components/Layouts/ExploreLayout';
 import DonationLayout from './components/Layouts/DonationLayout';
 import AboutUsLayout from './components/Layouts/AboutUsLayout';
+import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/esm/Button';
 export default function RouteMain() {
     return (
         <Router>
@@ -27,7 +29,6 @@ export default function RouteMain() {
                 <Route path="/about" element={<Gunasthan />} />
                 <Route path="/donate" element={<Gunasthan />} />
                 <Route path="/feedback" element={<FeedbackForm />} />
-                <Route path="/prabandh" element={<Prabandh />} />
                 <Route path="/queries" element={<Queries />} />
                 <Route path="visit" element={<VisitLayout />}>
                     <Route path="howToReach" element={<HowToReach />}></Route>
@@ -41,6 +42,7 @@ export default function RouteMain() {
                 <Route path="explore" element={<ExploreLayout />} />
                 <Route path="aboutUs" element={<AboutUsLayout />} />
 
+                <Route path="/prabandh" element={<Prabandh />} />
                 <Route path="Social" element={<Social />} />
                 <Route path="/feedback" element={<FeedbackForm />} />
 
@@ -48,7 +50,8 @@ export default function RouteMain() {
                     path="*"
                     element={
                         <main style={{ padding: "1rem" }}>
-                            <p>There's nothing here!</p>
+                            <p className='heading'>There's nothing here!</p>
+                            <Link to="/" className='d-flex justify-content-center'><Button>Home</Button></Link>
                         </main>
                     }
                 />

@@ -26,7 +26,7 @@ export default function ManagingComittee() {
         designation: "CFO",
     }]
 
-    return <Container id="organisation" className='d-flex justify-content-center flex-wrap'>
+    return <Container id="Organisation" className='d-flex justify-content-center flex-wrap'>
         {
             DonationSchemes.map((obj, keyy) =>
                 (<ProfileCard profile={obj} />)

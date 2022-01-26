@@ -78,12 +78,12 @@ export default function Footer() {
                     <Col lg={true}>
                         <Col ><Link to="aboutUs"> ABOUT US</Link></Col>
                         <Col > <Link to="aboutUs#blessings">Blessings and Inspirer</Link></Col >
-                        <Col > <HashLink to="/aboutUs#organisation">Organisation</HashLink></Col >
-                        <Col > <Link to="/prabandh">Managing Comittee</Link></Col>
+                        <Col > <HashLink to="/aboutUs#Organisation">Organisation</HashLink></Col >
+                        <Col > <HashLink to="/prabandh" >Managing Comittee</HashLink></Col>
                         <Col > <Link to="/">Gunayatan Journey </Link></Col >
                         <Col > <HashLink to="/aboutUs#gunayatanParivar"> Gunayatan Parivar</HashLink></Col >
-                        <Col > <Link to="/">Members Login</Link></Col >
-                        <Col > <Link to="/">Contact Us</Link></Col >
+                        <Col > <HashLink to="/aboutUs#MembersLogin" >Members Login</HashLink></Col >
+                        <Col > <HashLink to="/aboutUs#ContactUs" >Contact Us</HashLink></Col >
                     </Col>
                     <Col lg={true}>
                         <Col >LINKS</Col>

@@ -33,19 +33,17 @@ export default function NavbarMain() {
                         {/* onClick={() => setToggle(toggle => !toggle)} */}
                         {/* <Nav.Link to="/about" onClick={handleNavbarExpand}>Features</Nav.Link> */}
                         <Link to="/" onClick={handleNavbarExpand}><Nav.Item id="nav-home" active>Home</Nav.Item></Link>
-                        <NavLink to="/about"> <Nav.Item data-bs-toggle="collapse" data-bs-target=".navbar-collapse">14 Gunsthan</Nav.Item></NavLink>
+                        <NavLink to="/explore"> <Nav.Item data-bs-toggle="collapse" data-bs-target=".navbar-collapse">14 Gunsthan</Nav.Item></NavLink>
                         <NavDropdown title="About Us" >
-                            <NavDropdown.Item href="#action3">Muni Pramansagar Ji</NavDropdown.Item>
-                            <NavDropdown.Item href="#action3">Managing Comittee</NavDropdown.Item>
-                            <NavDropdown.Item href="#action3">Core Members</NavDropdown.Item>
+                            <Link to="aboutUs"><NavDropdown.Item >Muni Pramansagar Ji</NavDropdown.Item></Link>
+                            <NavLink to="/aboutUs#Organisation"><NavDropdown.Item >Managing Comittee</NavDropdown.Item></NavLink>
+                            <NavLink to="/prabandh"><NavDropdown.Item >Core Members</NavDropdown.Item></NavLink>
                             {/* <NavDropdown.Divider /> */}
-                            <NavDropdown.Item href="#action5">
-                                Something else here
-                            </NavDropdown.Item>
+                            <NavLink to="/prabandh"><NavDropdown.Item >Contact Us</NavDropdown.Item></NavLink>
                         </NavDropdown>
                         <NavLink to="/schemes"> <Nav.Item >Schemes</Nav.Item></NavLink>
                         <NavLink to="/progress"><Nav.Item>Progress</Nav.Item></NavLink>
-                        <NavLink to="/donate"><Nav.Item >Donate</Nav.Item></NavLink>
+                        <NavLink to="/donation"><Nav.Item >Donate</Nav.Item></NavLink>
 
                         {/* <Button variant="outline-success">Schemes</Button> */}
                         {/* <Button variant="outline-success">Progress</Button> */}
