@@ -1,4 +1,4 @@
-@-webkit-keyframes zoom {
+@-webkit-keyframes zoomOut {
   from {
     -webkit-transform: scale(1.3, 1.3);
   }
@@ -6,8 +6,7 @@
     -webkit-transform: scale(1, 1);
   }
 }
-
-@keyframes zoom {
+@keyframes zoomOut {
   from {
     transform: scale(1.3, 1.3);
   }
@@ -16,14 +15,24 @@
   }
 }
 /* .carousel-inner .item img { */
-.TopCarousel .carousel-inner .active > img {
-  -webkit-animation: zoom 15s;
-  animation: zoom 15s;
+.TopCarousel .carousel-inner .active > picture > img {
+  -webkit-animation: zoomOut;
+  animation-name: zoomOut;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
   /* max-height: 800px; */
 }
+.TopCarousel .carousel-item picture > img {
+  vertical-align: top;
+  transform: scale(1.3);
+  object-fit: contain;
+}
+
 .TopCarousel .carousel-item {
-  max-height: 800px;
+  /* max-height: 800px; */
   background: linear-gradient(150deg, black, transparent);
+  max-height: 88vh;
 }
 
 .TopCarousel .carousel-caption {
@@ -46,10 +55,4 @@
 }
 .TopCarousel .carousel-indicators {
   display: none;
-}
-.TopCarousel .carousel-item img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-  transform: scale(1.3);
 }
