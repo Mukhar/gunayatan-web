@@ -30,20 +30,18 @@ export default function NavbarMain() {
                         style={{ maxHeight: '100' }}
                         navbarScroll
                         onSelect={handleNavbarExpand}>
-                        {/* onClick={() => setToggle(toggle => !toggle)} */}
-                        {/* <Nav.Link to="/about" onClick={handleNavbarExpand}>Features</Nav.Link> */}
                         <Link to="/" onClick={handleNavbarExpand}><Nav.Item id="nav-home" active>Home</Nav.Item></Link>
-                        <NavLink to="/explore"> <Nav.Item data-bs-toggle="collapse" data-bs-target=".navbar-collapse">14 Gunsthan</Nav.Item></NavLink>
+                        <NavLink to="/explore" onClick={handleNavbarExpand} > <Nav.Item data-bs-toggle="collapse" data-bs-target=".navbar-collapse">14 Gunsthan</Nav.Item></NavLink>
                         <NavDropdown title="About Us" >
-                            <Link to="aboutUs"><NavDropdown.Item >Muni Pramansagar Ji</NavDropdown.Item></Link>
-                            <NavLink to="/aboutUs#Organisation"><NavDropdown.Item >Managing Comittee</NavDropdown.Item></NavLink>
-                            <NavLink to="/prabandh"><NavDropdown.Item >Core Members</NavDropdown.Item></NavLink>
+                            <Link to="aboutUs" onClick={handleNavbarExpand}><NavDropdown.Item >Muni Pramansagar Ji</NavDropdown.Item></Link>
+                            <NavLink to="/aboutUs#Organisation" onClick={handleNavbarExpand}><NavDropdown.Item >Managing Comittee</NavDropdown.Item></NavLink>
+                            <NavLink to="/prabandh" onClick={handleNavbarExpand}><NavDropdown.Item >Core Members</NavDropdown.Item></NavLink>
                             {/* <NavDropdown.Divider /> */}
-                            <NavLink to="/prabandh"><NavDropdown.Item >Contact Us</NavDropdown.Item></NavLink>
+                            <NavLink to="/prabandh" onClick={handleNavbarExpand}><NavDropdown.Item >Contact Us</NavDropdown.Item></NavLink>
                         </NavDropdown>
-                        <NavLink to="/schemes"> <Nav.Item >Schemes</Nav.Item></NavLink>
-                        <NavLink to="/progress"><Nav.Item>Progress</Nav.Item></NavLink>
-                        <NavLink to="/donation"><Nav.Item >Donate</Nav.Item></NavLink>
+                        <NavLink to="/schemes" onClick={handleNavbarExpand}> <Nav.Item >Schemes</Nav.Item></NavLink>
+                        <NavLink to="/progress" onClick={handleNavbarExpand}><Nav.Item>Progress</Nav.Item></NavLink>
+                        <NavLink to="/donation" onClick={handleNavbarExpand}><Nav.Item >Donate</Nav.Item></NavLink>
 
                         {/* <Button variant="outline-success">Schemes</Button> */}
                         {/* <Button variant="outline-success">Progress</Button> */}
