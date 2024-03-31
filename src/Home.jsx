@@ -12,7 +12,7 @@ import SectionComp from './components/SectionComp';
 import SectionScheme from './components/SectionScheme';
 import Slick from './components/Slick';
 import SubscribeNews from './components/SubscribeNews';
-import Updown from "./components/Utils/Updown";
+// import Updown from "./components/Utils/Updown";
 function Home() {
   useEffect(() => {
     window.scroll(0, 0);
@@ -21,20 +21,20 @@ function Home() {
   return (<>
     {/* <NavbarMain /> */}
     <CarouselBody />
-    <Updown up='menu' down='muniraj' />
+    {/* <Updown up='menu' down='muniraj' /> */}
     <CardWhite />
-    <Updown up='carousel-top' down='about' />
+    {/* <Updown up='carousel-top' down='about' /> */}
     <Dharma />
     <Divider />
-    <Updown up='carousel-top' down='card' />
+    {/* <Updown up='carousel-top' down='card' /> */}
     <FullscreenTextImage />
-    <Updown up='carousel' down='slick' />
+    {/* <Updown up='carousel' down='slick' /> */}
     <SectionComp heading="Gunayatan Gyan Mandir" />
-    <Updown up='carousel' down='card' />
+    {/* <Updown up='carousel' down='card' /> */}
     <Slick />
-    <Updown up='carousel' down='scheme-extended' />
+    {/* <Updown up='carousel' down='scheme-extended' /> */}
     <SectionScheme heading="...towards achieving the ultimate goal" />
-    <Updown up='carousel' down='card' />
+    {/* <Updown up='carousel' down='card' /> */}
     <JoinUs />
     <SubscribeNews />
   </>
